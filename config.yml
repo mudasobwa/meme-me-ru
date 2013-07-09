@@ -99,3 +99,13 @@ widgets :
 
   google_prettify :
     linenums : true
+
+images :
+
+  watermark :
+    use : true
+    date : true
+    text : mudasobwa.ru
+    min : 100
+
+  scales : [600, 150]
