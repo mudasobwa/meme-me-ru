@@ -25,7 +25,7 @@ twitter :
   use : "theme"
 
 _root:
-  summary_lines: 20
+  summary_lines: 0
   rss:
     enable: false
   paginator:
@@ -34,8 +34,8 @@ _root:
 posts:
   sort: ["date", "desc"]
   permalink: "/:categories/:title/"
-  summary_lines: 20
-  latest: 5
+  summary_lines: 0
+  latest: 30
   rss:
     enable: true
     limit: 5
@@ -44,11 +44,11 @@ posts:
     # Always start with a forward slash, as ruhoh will internally respect any base_path you set.
     # url: "/posts/"
   paginator:
-    enable: false
+    enable: true
     # The url your paginated pages will be located: e.g /posts/index/1, /posts/index/2, /posts/index/3
     # Always start with a forward slash, as ruhoh will internally respect any base_path you set.
     url: "/posts/index/"
-    per_page: 5
+    per_page: 1
     # Set the custom page you want page#1 of your posts paginator to link to. (default: /posts/index/1)
     # Note the default is technically <paginator.url>/1 just as the other paginated pages.
     # It is up to you to display the paginator_pagination links somewhere in this case.
@@ -72,12 +72,8 @@ asset_pipeline:
 widgets :
 
   analytics :
-    # use : google
-    # -- config for google --
-    # tracking_id : 'UA-123-12'
-
-    # -- config for getclicky  --
-    # site_id :
+    use : yandex
+    tracking_id : 21820303
 
   comments :
     use : disqus

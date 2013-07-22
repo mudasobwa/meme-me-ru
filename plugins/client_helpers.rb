@@ -102,7 +102,7 @@ module Ruhoh::Resources::Pages
         next if sz >= img.columns
         curr = img.resize_to_fit(sz)
 
-        imgfilename = "#{title.gsub(/[\/\s]+/, '-')}-#{now}-#{sz}.#{img.format.downcase}"
+        imgfilename = "#{now}-#{sz}.#{img.format.downcase}"
         result = imgfilename unless result
         currfile = File.join(@ruhoh.paths.base, "media", imgfilename)
         Ruhoh::Friend.say { 
@@ -148,13 +148,13 @@ module Ruhoh::Resources::Pages
 #                 gsub('{{IMGTITLE}}', title)
 
       basename.each { |bn| 
-        output += "\n\n<figure>\n" + \
+        output += "\n<figure>\n" + \
                   "\t<img src=\"{{urls.media}}/#{bn}\" alt=\"#{title}\" />\n" + \
                   "\t<figcaption><p>#{title}</p></figcaption>\n" + \
-                  "</figure>\n\n"
+                  "</figure>\n"
       }
 
-      File.open(filename, 'w:UTF-8') {|f| f.puts output }
+      File.open(filename, 'w:UTF-8') { |f| f.puts output }
 
       resource_name = @collection.resource_name
       Ruhoh::Friend.say { 

@@ -22,8 +22,9 @@
     {{/ stylesheets.load }}
 
     <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="{{urls.media}}/favicon.png">
+    <link rel="alternate" type="application/rss+xml" title="КОЖЗГСФ" href="/posts/rss.xml" />
   <!-- Update these with your own images
-    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
@@ -35,7 +36,7 @@
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container-narrow">
-          <a class="brand" href="{{urls.base_path}}">{{ data.title }}</a>
+          <a class="brand" title="{{ data.titledesc }}" href="{{urls.base_path}}">{{ data.title }}</a>
           <ul class="nav">
             {{# data.navigation?to__root }}
               {{> pages_list }}
@@ -53,9 +54,9 @@
 
       <hr>
       <div class="footer">
-        <p>&copy; {{ data.author.name }} 2013
-          with help from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        <p>© {{ data.author.name }} 2013<br>
+          gracefully built with help from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">twitter bootstrap</a>
         </p>
       </div>
 

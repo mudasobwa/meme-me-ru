@@ -3,25 +3,39 @@
   margin: 0 auto;
   max-width: 700px;
 }
-.container-narrow > hr {
-  margin: 30px 0;
+
+hr {
+  margin: 10px 0 !important;
 }
+blockquote {
+  margin-left: 3em;
+  font-size: 14px;
+  font-style: italic;
+}
+blockquote p {
+  font-size: 14px;
+}
+.footer > p {
+  font-size: 75%;
+  font-family: 'Ubuntu';
+}
+
 
 .navbar .nav {
   float:right;
 }
 
 /* posts index */
-.post > h3.title {
+.post > h3.title, .posts > h3.title {
   position:relative;
   padding-top:10px;
 }
-.post > h3.title span.date { 
+.post > h3.title span.date, .posts > h3.title span.date { 
   position:absolute;
   right:0;
   font-size:0.9em;
 }
-.post > .more {
+.post > .more, .posts > .more {
   margin:10px 0;
   text-align:left;
 }
