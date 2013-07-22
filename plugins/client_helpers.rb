@@ -92,7 +92,7 @@ module Ruhoh::Resources::Pages
       img_config = @ruhoh.config['images']
       result = nil
 
-      date = Date.parse(img.properties['date:modify']) if img.properties['date:modify']
+      date = Date.parse(img.properties['exif:DateTime']) if img.properties['exif:DateTime']
       date ||= Date.parse(img.properties['date:create']) if img.properties['date:create']
       date ||= Date.parse(img.properties['xap:CreateDate']) if img.properties['xap:CreateDate']
 
