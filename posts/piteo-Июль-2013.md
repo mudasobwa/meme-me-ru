@@ -1,0 +1,35 @@
+---
+title: 'Piteå :: Июль 2013'
+date: '2013-07-24'
+description: Piteå photos
+tags: [Reisen, Swerige]
+---
+<figure>
+	<img src="{{urls.media}}/1374691280618-600.jpeg" alt="Piteå :: Июль 2013" />
+	<figcaption><p>Питео — побратим Кандалакши.</p></figcaption>
+</figure>
+
+<figure>
+	<img src="{{urls.media}}/1374691285456-600.jpeg" alt="Piteå :: Июль 2013" />
+	<figcaption><p>По каналу принято гонять на скутерах.</p></figcaption>
+</figure>
+
+<figure>
+	<img src="{{urls.media}}/1374691289909-600.jpeg" alt="Piteå :: Июль 2013" />
+	<figcaption><p>Улочки по-шведски многолюдны.</p></figcaption>
+</figure>
+
+<figure>
+	<img src="{{urls.media}}/1374691294614-600.jpeg" alt="Piteå :: Июль 2013" />
+	<figcaption><p>Музей города.</p></figcaption>
+</figure>
+
+<figure>
+	<img src="{{urls.media}}/1374691300028-600.jpeg" alt="Piteå :: Июль 2013" />
+	<figcaption><p>Правильная архитектура.</p></figcaption>
+</figure>
+
+<figure>
+	<img src="{{urls.media}}/1374691305342-600.jpeg" alt="Piteå :: Июль 2013" />
+	<figcaption><p>Променад «Кандалакша». Наша скульптура.</p></figcaption>
+</figure>
