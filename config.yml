@@ -35,7 +35,7 @@ posts:
   sort: ["date", "desc"]
   permalink: "/:categories/:title/"
   summary_lines: 0
-  latest: 30
+  latest: 18
   rss:
     enable: true
     limit: 5

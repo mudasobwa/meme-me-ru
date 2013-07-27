@@ -1,8 +1,9 @@
 ---
 title: 'Kokkola :: Июль 2013'
-date: '2013-07-23'
+date: '2013-07-23 8:00'
 description: Kokkola photos
 tags: [Reisen, Suomi]
+categories: Photos
 ---
 <figure>
   <img src="{{urls.media}}/1374606960160-600.jpeg" alt="Kokkola :: Июль 2013" />

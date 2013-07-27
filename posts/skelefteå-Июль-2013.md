@@ -1,8 +1,9 @@
 ---
 title: 'Skelefteå :: Июль 2013'
-date: '2013-07-24'
+date: '2013-07-24 18:00'
 description: Skelefteå photos
 tags: [Reisen, Swerige]
+categories: Photos
 ---
 <figure>
 	<img src="{{urls.media}}/1374691327094-600.jpeg" alt="Skelefteå :: Июль 2013" />

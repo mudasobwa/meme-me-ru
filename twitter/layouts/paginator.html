@@ -4,6 +4,21 @@ layout : default
 
 <div class="row-fluid">
   <div class="span12">
+    <hr>
+    <div class="pagination">
+      <ul>
+      {{#collection.paginator_navigation}}
+        {{#is_active_page}}
+          <li class="active"><a href="{{url}}">{{name}}</a></li>
+        {{/is_active_page}}
+        {{^is_active_page}}
+          <li><a href="{{url}}">{{name}}</a></li>
+        {{/is_active_page}}
+      {{/collection.paginator_navigation}}
+      </ul>
+    </div>
+    <hr>
+
     {{#collection.paginator}}
       <div class="{{ collection.resource_name}}">
         <h3 class="title"><a href="{{url}}">{{title}}</a> <span class="date">{{ date }}</span></h3>

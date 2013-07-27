@@ -1,8 +1,9 @@
 ---
 title: 'Ylivieska :: Июль 2013'
-date: '2013-07-23'
+date: '2013-07-23 10:00'
 description: Ylivieska photos
 tags: [Reisen, Suomi]
+categories: Photos
 ---
 <figure>
 	<img src="{{urls.media}}/1374607783774-600.jpeg" alt="Ylivieska :: Июль 2013" />

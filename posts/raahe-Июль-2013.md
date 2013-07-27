@@ -1,8 +1,9 @@
 ---
 title: 'Raahe :: Июль 2013'
-date: '2013-07-23'
+date: '2013-07-23 13:00'
 description: Raahe photos
 tags: [Reisen, Suomi]
+categories: Photos
 ---
 <figure>
 	<img src="{{urls.media}}/1374608200728-600.jpeg" alt="Raahe :: Июль 2013" />

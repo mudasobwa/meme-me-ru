@@ -3,6 +3,7 @@ title: 'Sankt-Petersburg :: Июль 2013'
 date: '2013-07-20'
 description: Saint-Petersburg in photos
 tags: [Reisen, SPb]
+categories: Photos
 ---
 
 <figure>

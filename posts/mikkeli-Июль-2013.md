@@ -3,6 +3,7 @@ title: 'Mikkeli :: Июль 2013'
 date: '2013-07-21'
 description: Mikkeli in photos
 tags: [Reisen, Suomi]
+categories: Photos
 ---
 
 <figure>

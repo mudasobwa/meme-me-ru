@@ -1,8 +1,9 @@
 ---
 title: 'Gammelstad :: Июль 2013'
-date: '2013-07-24'
+date: '2013-07-24 12:00'
 description: Gammelstad photos
 tags: [Reisen, Swerige]
+categories: Photos
 ---
 <figure>
 	<img src="{{urls.media}}/1374691221307-600.jpeg" alt="Gammelstad :: Июль 2013" />

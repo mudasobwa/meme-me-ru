@@ -1,8 +1,9 @@
 ---
 title: 'Örusköldvik :: Июль 2013'
-date: '2013-07-25'
+date: '2013-07-25 10:00'
 description: Örusköldvik photos
 tags: [Reisen, Swerige]
+categories: Photos
 ---
 <figure>
 	<img src="{{urls.media}}/1374781685366-600.jpeg" alt="Örusköldvik :: Июль 2013" />

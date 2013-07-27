@@ -3,6 +3,7 @@ title: 'Jakobstad :: Июль 2013'
 date: '2013-07-22'
 description: Jakobstad in photos
 tags: [Reisen, Suomi]
+categories: Photos
 ---
 <figure>
 	<img src="{{urls.media}}/1374511651558-600.jpeg" alt="Jakobstad :: Июль 2013" />

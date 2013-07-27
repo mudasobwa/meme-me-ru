@@ -1,8 +1,9 @@
 ---
 title: 'Östersund :: Июль 2013'
-date: '2013-07-27'
+date: '2013-07-27 8:00'
 description: Östersund photos
 tags: [Reisen, Swerige]
+categories: Photos
 ---
 <figure>
 	<img src="{{urls.media}}/1374870302728-600.jpeg" alt="Östersund :: Июль 2013" />
