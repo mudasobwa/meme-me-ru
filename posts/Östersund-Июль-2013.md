@@ -1,6 +1,6 @@
 ---
 title: 'Östersund :: Июль 2013'
-date: '2013-07-27 8:00'
+date: '2013-07-26 8:00'
 description: Östersund photos
 tags: [Reisen, Swerige]
 categories: Photos
