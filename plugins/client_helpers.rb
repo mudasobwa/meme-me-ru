@@ -92,7 +92,9 @@ module Ruhoh::Resources::Pages
       img_config = @ruhoh.config['images']
       result = nil
 
+      # TODO Find out, how we can get this info from EXIF!!
       date = Date.parse(img.properties['exif:DateTime'].gsub(/:/, '/')) if img.properties['exif:DateTime']
+      date ||= Date.parse(img.properties['date:modify']) if img.properties['date:modify']
       date ||= Date.parse(img.properties['date:create']) if img.properties['date:create']
       date ||= Date.parse(img.properties['xap:CreateDate']) if img.properties['xap:CreateDate']
 

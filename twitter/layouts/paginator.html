@@ -7,6 +7,7 @@ layout : default
     <hr>
     <div class="pagination">
       <ul>
+      <!--TODO Make paginator show finite number of items-->
       {{#collection.paginator_navigation}}
         {{#is_active_page}}
           <li class="active"><a href="{{url}}">{{name}}</a></li>
