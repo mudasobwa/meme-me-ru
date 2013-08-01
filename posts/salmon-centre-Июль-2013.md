@@ -1,6 +1,6 @@
 ---
 title: 'Salmon Centre :: Июль 2013'
-date: '2013-07-29 10:00'
+date: '2013-07-28 10:00'
 description: Salmon Centre in Laerdal photos
 tags: [Reisen, Norge]
 categories: Photos

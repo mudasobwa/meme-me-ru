@@ -133,7 +133,7 @@ module Ruhoh::Resources::Pages
           Ruhoh::Friend.say { plain "        ⇒ without watermark" }
         end
 
-        curr.write currfile
+        curr.write(currfile) { self.quality = 95 }
       }
       result
     end

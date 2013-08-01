@@ -1,7 +1,7 @@
 ---
-title: 'Berluga :: Июль 2013'
-date: '2013-07-29 12:00'
-description: Berluga photos
+title: 'Borgund Stabkirche :: Июль 2013'
+date: '2013-07-28 12:00'
+description: Borgund photos
 tags: [Reisen, Norge]
 categories: Photos
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'Lærdal :: Июль 2013'
-date: '2013-07-29 8:00'
+date: '2013-07-28 8:00'
 description: Lærdal photos
 tags: [Reisen, Norge]
 categories: Photos

@@ -1,10 +1,11 @@
 ---
 title: 'Trondheim :: Июль 2013'
-date: '2013-07-27 8:00'
+date: '2013-07-27 7:00'
 description: Trondheim photos
 tags: [Reisen, Norge]
 categories: Photos
 ---
+
 <figure>
 	<img src="{{urls.media}}/1374990267555-600.jpeg" alt="Trondheim :: Июль 2013" />
 	<figcaption><p>Памятник Викингу. Вообще, Гитлер, кажется, воображал о викингах гораздо больше, чем сами норвежцы. Их викинги похожи на просоленного морями Дон Кихота.</p></figcaption>

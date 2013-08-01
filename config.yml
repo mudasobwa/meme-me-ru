@@ -35,7 +35,7 @@ posts:
   sort: ["date", "desc"]
   permalink: "/:categories/:title/"
   summary_lines: 0
-  latest: 18
+  latest: 10
   rss:
     enable: true
     limit: 5
@@ -102,6 +102,6 @@ images :
     use : true
     date : true
     text : mudasobwa.ru
-    min : 100
+    min : 200
 
-  scales : [600, 150]
+  scales : [600]
