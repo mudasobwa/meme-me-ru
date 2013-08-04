@@ -23,7 +23,7 @@ categories: Photos
 
 <figure>
 	<img src="{{urls.media}}/1375246968509-600.jpeg" alt="Trollstigen :: Июль 2013" />
-	<figcaption><p>Бухта в Герлангере.</p></figcaption>
+	<figcaption><p>Бухта в Гейрангере.</p></figcaption>
 </figure>
 
 <figure>
@@ -38,7 +38,7 @@ categories: Photos
 
 <figure>
 	<img src="{{urls.media}}/1375246971759-600.jpeg" alt="Trollstigen :: Июль 2013" />
-	<figcaption><p>Герлангер, панорама.</p></figcaption>
+	<figcaption><p>Гейрангер, панорама.</p></figcaption>
 </figure>
 
 <figure>

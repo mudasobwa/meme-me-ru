@@ -77,12 +77,12 @@ categories: Photos
 
 <figure>
 	<img src="{{urls.media}}/1375386998109-600.jpeg" alt="Kjelsås :: Tech’N’Science Museum :: Июль 2013" />
-	<figcaption><p>Лет до тридцати я был уверен, что так выглядит настоящая __астролябия__.</p></figcaption>
+	<figcaption><p>Лет до тридцати я был уверен, что так выглядит настоящая <em>астролябия</em>.</p></figcaption>
 </figure>
 
 <figure>
 	<img src="{{urls.media}}/1375387009935-600.jpeg" alt="Kjelsås :: Tech’N’Science Museum :: Июль 2013" />
-	<figcaption><p>Или это __астролябия__?!</p></figcaption>
+	<figcaption><p>Или это <em>астролябия</em>?!</p></figcaption>
 </figure>
 
 <figure>
