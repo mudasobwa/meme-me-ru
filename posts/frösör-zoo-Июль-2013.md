@@ -5,12 +5,6 @@ description: Frösör Zoo photos
 tags: [Reisen, Swerige]
 categories: Photos
 ---
-<figure>
-	<img src="{{urls.media}}/1374870267530-600.jpeg" alt="Frösör Zoo :: Июль 2013" />
-	<figcaption><p> Лев. Сонный, но все равно величавый.</p></figcaption>
-</figure>
+![Frösör Zoo :: Июль 2013]({{urls.media}}/1374870267530-600.jpeg " Лев. Сонный, но все равно величавый.")
 
-<figure>
-	<img src="{{urls.media}}/1374870273638-600.jpeg" alt="Frösör Zoo :: Июль 2013" />
-	<figcaption><p>Я думаю, это гризли.</p></figcaption>
-</figure>
+![Frösör Zoo :: Июль 2013]({{urls.media}}/1374870273638-600.jpeg "Я думаю, это гризли.")

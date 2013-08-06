@@ -5,142 +5,58 @@ description: Bergen photos
 tags: [Reisen, Norge]
 categories: Photos
 ---
-<figure>
-	<img src="{{urls.media}}/1375130791720-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Киркан.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130791720-600.jpeg "Киркан.")
 
-<figure>
-	<img src="{{urls.media}}/1375130796154-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Домик на одного невысокого человека.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130796154-600.jpeg "Домик на одного невысокого человека.")
 
-<figure>
-	<img src="{{urls.media}}/1375130800880-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Рыночная площадь.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130800880-600.jpeg "Рыночная площадь.")
 
-<figure>
-	<img src="{{urls.media}}/1375130805540-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Кафе опера.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130805540-600.jpeg "Кафе опера.")
 
-<figure>
-	<img src="{{urls.media}}/1375130810716-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Памятник удивленному Эйнштейну, на котором почему-то написано «Хенрик Ибсен».</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130810716-600.jpeg "Памятник удивленному Эйнштейну, на котором почему-то написано «Хенрик Ибсен».")
 
-<figure>
-	<img src="{{urls.media}}/1375130814922-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Основной баклан центральной площади.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130814922-600.jpeg "Основной баклан центральной площади.")
 
-<figure>
-	<img src="{{urls.media}}/1375130819215-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Домишко.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130819215-600.jpeg "Домишко.")
 
-<figure>
-	<img src="{{urls.media}}/1375130824231-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Bryggen — место встреч.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130824231-600.jpeg "Bryggen — место встреч.")
 
-<figure>
-	<img src="{{urls.media}}/1375130828614-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Башня с часами.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130828614-600.jpeg "Башня с часами.")
 
-<figure>
-	<img src="{{urls.media}}/1375130834151-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Памятник Эйнштейну в юности.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130834151-600.jpeg "Памятник Эйнштейну в юности.")
 
-<figure>
-	<img src="{{urls.media}}/1375130838592-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>После дождя.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130838592-600.jpeg "После дождя.")
 
-<figure>
-	<img src="{{urls.media}}/1375130842910-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Где-то в старом городе.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130842910-600.jpeg "Где-то в старом городе.")
 
-<figure>
-	<img src="{{urls.media}}/1375130847364-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Холмистость.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130847364-600.jpeg "Холмистость.")
 
-<figure>
-	<img src="{{urls.media}}/1375130851615-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Точка сбора мужских групп.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130851615-600.jpeg "Точка сбора мужских групп.")
 
-<figure>
-	<img src="{{urls.media}}/1375130856268-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Памятник Эйнштейну, уходящему вдаль (надпись, почему-то, гласит: «Bjørnson»).</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130856268-600.jpeg "Памятник Эйнштейну, уходящему вдаль (надпись, почему-то, гласит: «Bjørnson»).")
 
-<figure>
-	<img src="{{urls.media}}/1375130860620-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Мечеть.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130860620-600.jpeg "Мечеть.")
 
-<figure>
-	<img src="{{urls.media}}/1375130865198-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Беседка типа «пагода».</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130865198-600.jpeg "Беседка типа «пагода».")
 
-<figure>
-	<img src="{{urls.media}}/1375130868605-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Да, это норвежский дизайн.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130868605-600.jpeg "Да, это норвежский дизайн.")
 
-<figure>
-	<img src="{{urls.media}}/1375130872321-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Театр.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130872321-600.jpeg "Театр.")
 
-<figure>
-	<img src="{{urls.media}}/1375130877665-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Фонтан.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130877665-600.jpeg "Фонтан.")
 
-<figure>
-	<img src="{{urls.media}}/1375130882292-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Викинг в шарфе.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130882292-600.jpeg "Викинг в шарфе.")
 
-<figure>
-	<img src="{{urls.media}}/1375130887178-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Викинг в треуголке.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130887178-600.jpeg "Викинг в треуголке.")
 
-<figure>
-	<img src="{{urls.media}}/1375130892575-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Памятник Эйнштейну, на пьедестале которого написано «Эдвард Григ».</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130892575-600.jpeg "Памятник Эйнштейну, на пьедестале которого написано «Эдвард Григ».")
 
-<figure>
-	<img src="{{urls.media}}/1375130897096-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Подъем флага (производится строго в 8:46).</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130897096-600.jpeg "Подъем флага (производится строго в 8:46).")
 
-<figure>
-	<img src="{{urls.media}}/1375130901689-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Памятник Эйнштейну в образе Есенина. Подписи нет.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130901689-600.jpeg "Памятник Эйнштейну в образе Есенина. Подписи нет.")
 
-<figure>
-	<img src="{{urls.media}}/1375130906326-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Дом с эркером.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130906326-600.jpeg "Дом с эркером.")
 
-<figure>
-	<img src="{{urls.media}}/1375130910846-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Меню индийского ресторана. Кебаб на вынос — €22.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130910846-600.jpeg "Меню индийского ресторана. Кебаб на вынос — €22.")
 
-<figure>
-	<img src="{{urls.media}}/1375130915276-600.jpeg" alt="Bergen :: Июль 2013" />
-	<figcaption><p>Киркан.</p></figcaption>
-</figure>
+![Bergen :: Июль 2013]({{urls.media}}/1375130915276-600.jpeg "Киркан.")

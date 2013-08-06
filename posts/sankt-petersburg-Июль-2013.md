@@ -6,27 +6,12 @@ tags: [Reisen, SPb]
 categories: Photos
 ---
 
-<figure>
-	<img src="{{urls.media}}/1374470441762-600.jpeg" alt="Sankt-Petersburg :: Июль 2013" />
-  <figcaption><p>Невский проспект объявлен пешеходной зоной.</p></figcaption>
-</figure>
+![Sankt-Petersburg :: Июль 2013]({{urls.media}}/1374470441762-600.jpeg "Невский проспект объявлен пешеходной зоной.")
 
-<figure>
-	<img src="{{urls.media}}/1374470444072-600.jpeg" alt="Sankt-Petersburg :: Июль 2013" />
-  <figcaption><p>Невский проспект опять объявлен пешеходной зоной.</p></figcaption>
-</figure>
+![Sankt-Petersburg :: Июль 2013]({{urls.media}}/1374470444072-600.jpeg "Невский проспект опять объявлен пешеходной зоной.")
 
-<figure>
-	<img src="{{urls.media}}/1374470446494-600.jpeg" alt="Sankt-Petersburg :: Июль 2013" />
-	<figcaption><p>Внезапно: «Привет!»</p></figcaption>
-</figure>
+![Sankt-Petersburg :: Июль 2013]({{urls.media}}/1374470446494-600.jpeg "Внезапно: «Привет!»")
 
-<figure>
-	<img src="{{urls.media}}/1374470437857-600.jpeg" alt="Sankt-Petersburg :: Июль 2013" />
-	<figcaption><p>Для тех, кто понимает: игровой автомат типа «Городки».</p></figcaption>
-</figure>
+![Sankt-Petersburg :: Июль 2013]({{urls.media}}/1374470437857-600.jpeg "Для тех, кто понимает: игровой автомат типа «Городки».")
 
-<figure>
-	<img src="{{urls.media}}/1374470435019-600.jpeg" alt="Sankt-Petersburg :: Июль 2013" />
-  <figcaption><p>Асфальт потоком лился // на головы людей.</p></figcaption>
-</figure>
+![Sankt-Petersburg :: Июль 2013]({{urls.media}}/1374470435019-600.jpeg "Асфальт потоком лился // на головы людей.")

@@ -5,32 +5,14 @@ description: Oslo photos
 tags: [Reisen, Norge]
 categories: Photos
 ---
-<figure>
-	<img src="{{urls.media}}/1375476638259-600.jpeg" alt="Oslo :: Day II :: Июль 2013" />
-	<figcaption><p>Франклин Рузвельт. Что он делает в Осло, спросите вы?</p></figcaption>
-</figure>
+![Oslo :: Day II :: Июль 2013]({{urls.media}}/1375476638259-600.jpeg "Франклин Рузвельт. Что он делает в Осло, спросите вы?")
 
-<figure>
-	<img src="{{urls.media}}/1375476643844-600.jpeg" alt="Oslo :: Day II :: Июль 2013" />
-	<figcaption><p>— С тоскою смотрит на спящего на лавочке туриста, конечно же.</p></figcaption>
-</figure>
+![Oslo :: Day II :: Июль 2013]({{urls.media}}/1375476643844-600.jpeg "— С тоскою смотрит на спящего на лавочке туриста, конечно же.")
 
-<figure>
-	<img src="{{urls.media}}/1375476640333-600.jpeg" alt="Oslo :: Day II :: Июль 2013" />
-	<figcaption><p>Сфинксы на реставрации.</p></figcaption>
-</figure>
+![Oslo :: Day II :: Июль 2013]({{urls.media}}/1375476640333-600.jpeg "Сфинксы на реставрации.")
 
-<figure>
-	<img src="{{urls.media}}/1375476641799-600.jpeg" alt="Oslo :: Day II :: Июль 2013" />
-	<figcaption><p>Фонтан «Крага». Побратим ресторана «Прага» на Арбате.</p></figcaption>
-</figure>
+![Oslo :: Day II :: Июль 2013]({{urls.media}}/1375476641799-600.jpeg "Фонтан «Крага». Побратим ресторана «Прага» на Арбате.")
 
-<figure>
-	<img src="{{urls.media}}/1375476647233-600.jpeg" alt="Oslo :: Day II :: Июль 2013" />
-	<figcaption><p>Гламурный катер.</p></figcaption>
-</figure>
+![Oslo :: Day II :: Июль 2013]({{urls.media}}/1375476647233-600.jpeg "Гламурный катер.")
 
-<figure>
-	<img src="{{urls.media}}/1375476651573-600.jpeg" alt="Oslo :: Day II :: Июль 2013" />
-	<figcaption><p>Привет Лебедеву и Гельману из Осло.</p></figcaption>
-</figure>
+![Oslo :: Day II :: Июль 2013]({{urls.media}}/1375476651573-600.jpeg "Привет Лебедеву и Гельману из Осло.")

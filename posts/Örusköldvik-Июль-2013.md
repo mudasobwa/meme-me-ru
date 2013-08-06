@@ -5,27 +5,12 @@ description: Örusköldvik photos
 tags: [Reisen, Swerige]
 categories: Photos
 ---
-<figure>
-	<img src="{{urls.media}}/1374781685366-600.jpeg" alt="Örusköldvik :: Июль 2013" />
-	<figcaption><p>Памятник всему непознанному в человеке. Или еще чему.</p></figcaption>
-</figure>
+![Örusköldvik :: Июль 2013]({{urls.media}}/1374781685366-600.jpeg "Памятник всему непознанному в человеке. Или еще чему.")
 
-<figure>
-	<img src="{{urls.media}}/1374781690093-600.jpeg" alt="Örusköldvik :: Июль 2013" />
-	<figcaption><p>Колонна после обрезания.</p></figcaption>
-</figure>
+![Örusköldvik :: Июль 2013]({{urls.media}}/1374781690093-600.jpeg "Колонна после обрезания.")
 
-<figure>
-	<img src="{{urls.media}}/1374781694909-600.jpeg" alt="Örusköldvik :: Июль 2013" />
-	<figcaption><p>Карта «кто откуда» в Turistbyrå. Флажки «Москва» и «Санкт-Петербург» воткнули мы.</p></figcaption>
-</figure>
+![Örusköldvik :: Июль 2013]({{urls.media}}/1374781694909-600.jpeg "Карта «кто откуда» в Turistbyrå. Флажки «Москва» и «Санкт-Петербург» воткнули мы.")
 
-<figure>
-	<img src="{{urls.media}}/1374781700119-600.jpeg" alt="Örusköldvik :: Июль 2013" />
-	<figcaption><p>Веселенькое строительство.</p></figcaption>
-</figure>
+![Örusköldvik :: Июль 2013]({{urls.media}}/1374781700119-600.jpeg "Веселенькое строительство.")
 
-<figure>
-	<img src="{{urls.media}}/1374781704468-600.jpeg" alt="Örusköldvik :: Июль 2013" />
-	<figcaption><p>Tunnbröd. Народный шведский хлеб. Маца тут ни при чем, посмотрите хоть на цену.</p></figcaption>
-</figure>
+![Örusköldvik :: Июль 2013]({{urls.media}}/1374781704468-600.jpeg "Tunnbröd. Народный шведский хлеб. Маца тут ни при чем, посмотрите хоть на цену.")

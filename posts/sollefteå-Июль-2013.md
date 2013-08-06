@@ -5,27 +5,12 @@ description: Sollefteå photos
 tags: [Reisen, Swerige]
 categories: Photos
 ---
-<figure>
-	<img src="{{urls.media}}/1374781783501-600.jpeg" alt="Sollefteå :: Июль 2013" />
-	<figcaption><p>Старый дом.</p></figcaption>
-</figure>
+![Sollefteå :: Июль 2013]({{urls.media}}/1374781783501-600.jpeg "Старый дом.")
 
-<figure>
-	<img src="{{urls.media}}/1374781788371-600.jpeg" alt="Sollefteå :: Июль 2013" />
-	<figcaption><p>Herbalife тут в почете. Свободная страна, никаких запретов.</p></figcaption>
-</figure>
+![Sollefteå :: Июль 2013]({{urls.media}}/1374781788371-600.jpeg "Herbalife тут в почете. Свободная страна, никаких запретов.")
 
-<figure>
-	<img src="{{urls.media}}/1374781793303-600.jpeg" alt="Sollefteå :: Июль 2013" />
-	<figcaption><p>Памятник сами придумайте чему.</p></figcaption>
-</figure>
+![Sollefteå :: Июль 2013]({{urls.media}}/1374781793303-600.jpeg "Памятник сами придумайте чему.")
 
-<figure>
-	<img src="{{urls.media}}/1374781797624-600.jpeg" alt="Sollefteå :: Июль 2013" />
-	<figcaption><p>Миссионерская парковка.</p></figcaption>
-</figure>
+![Sollefteå :: Июль 2013]({{urls.media}}/1374781797624-600.jpeg "Миссионерская парковка.")
 
-<figure>
-	<img src="{{urls.media}}/1374781802519-600.jpeg" alt="Sollefteå :: Июль 2013" />
-	<figcaption><p>Автобусная остановка.</p></figcaption>
-</figure>
+![Sollefteå :: Июль 2013]({{urls.media}}/1374781802519-600.jpeg "Автобусная остановка.")

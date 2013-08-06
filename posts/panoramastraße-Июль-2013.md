@@ -5,52 +5,22 @@ description: Panoramastraße photos, Geilanger
 tags: [Reisen, Norge]
 categories: Photos
 ---
-<figure>
-	<img src="{{urls.media}}/1375246794250-600.jpeg" alt="Panoramastraße :: Июль 2013" />
-	<figcaption><p>«Живут же люди»</p></figcaption>
-</figure>
+![Panoramastraße :: Июль 2013]({{urls.media}}/1375246794250-600.jpeg "«Живут же люди»")
 
-<figure>
-	<img src="{{urls.media}}/1375246798650-600.jpeg" alt="Panoramastraße :: Июль 2013" />
-	<figcaption><p>Водоворот-смайлик.</p></figcaption>
-</figure>
+![Panoramastraße :: Июль 2013]({{urls.media}}/1375246798650-600.jpeg "Водоворот-смайлик.")
 
-<figure>
-	<img src="{{urls.media}}/1375246803231-600.jpeg" alt="Panoramastraße :: Июль 2013" />
-	<figcaption><p>Вода и твердь.</p></figcaption>
-</figure>
+![Panoramastraße :: Июль 2013]({{urls.media}}/1375246803231-600.jpeg "Вода и твердь.")
 
-<figure>
-	<img src="{{urls.media}}/1375246807832-600.jpeg" alt="Panoramastraße :: Июль 2013" />
-	<figcaption><p>Дом под елями.</p></figcaption>
-</figure>
+![Panoramastraße :: Июль 2013]({{urls.media}}/1375246807832-600.jpeg "Дом под елями.")
 
-<figure>
-	<img src="{{urls.media}}/1375246812033-600.jpeg" alt="Panoramastraße :: Июль 2013" />
-	<figcaption><p>Холм «бегемот».</p></figcaption>
-</figure>
+![Panoramastraße :: Июль 2013]({{urls.media}}/1375246812033-600.jpeg "Холм «бегемот».")
 
-<figure>
-	<img src="{{urls.media}}/1375246816651-600.jpeg" alt="Panoramastraße :: Июль 2013" />
-	<figcaption><p>Кусок синего неба.</p></figcaption>
-</figure>
+![Panoramastraße :: Июль 2013]({{urls.media}}/1375246816651-600.jpeg "Кусок синего неба.")
 
-<figure>
-	<img src="{{urls.media}}/1375246821678-600.jpeg" alt="Panoramastraße :: Июль 2013" />
-	<figcaption><p>Водовороты.</p></figcaption>
-</figure>
+![Panoramastraße :: Июль 2013]({{urls.media}}/1375246821678-600.jpeg "Водовороты.")
 
-<figure>
-	<img src="{{urls.media}}/1375246826492-600.jpeg" alt="Panoramastraße :: Июль 2013" />
-	<figcaption><p>Дорога.</p></figcaption>
-</figure>
+![Panoramastraße :: Июль 2013]({{urls.media}}/1375246826492-600.jpeg "Дорога.")
 
-<figure>
-	<img src="{{urls.media}}/1375246831139-600.jpeg" alt="Panoramastraße :: Июль 2013" />
-	<figcaption><p>Фарватер.</p></figcaption>
-</figure>
+![Panoramastraße :: Июль 2013]({{urls.media}}/1375246831139-600.jpeg "Фарватер.")
 
-<figure>
-	<img src="{{urls.media}}/1375246835204-600.jpeg" alt="Panoramastraße :: Июль 2013" />
-	<figcaption><p>Панорама.</p></figcaption>
-</figure>
+![Panoramastraße :: Июль 2013]({{urls.media}}/1375246835204-600.jpeg "Панорама.")

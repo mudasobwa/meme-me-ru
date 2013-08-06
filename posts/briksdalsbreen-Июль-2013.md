@@ -5,32 +5,14 @@ description: Briksdals photos
 tags: [Reisen, Norge]
 categories: Photos
 ---
-<figure>
-	<img src="{{urls.media}}/1375131652263-600.jpeg" alt="Briksdalsbreen :: Июль 2013" />
-	<figcaption><p>Талые водопады.</p></figcaption>
-</figure>
+![Briksdalsbreen :: Июль 2013]({{urls.media}}/1375131652263-600.jpeg "Талые водопады.")
 
-<figure>
-	<img src="{{urls.media}}/1375131656998-600.jpeg" alt="Briksdalsbreen :: Июль 2013" />
-	<figcaption><p>Горы и зелень.</p></figcaption>
-</figure>
+![Briksdalsbreen :: Июль 2013]({{urls.media}}/1375131656998-600.jpeg "Горы и зелень.")
 
-<figure>
-	<img src="{{urls.media}}/1375131686426-600.jpeg" alt="Briksdalsbreen :: Июль 2013" />
-	<figcaption><p>Горы и синь.</p></figcaption>
-</figure>
+![Briksdalsbreen :: Июль 2013]({{urls.media}}/1375131686426-600.jpeg "Горы и синь.")
 
-<figure>
-	<img src="{{urls.media}}/1375131668301-600.jpeg" alt="Briksdalsbreen :: Июль 2013" />
-	<figcaption><p>Водопады.</p></figcaption>
-</figure>
+![Briksdalsbreen :: Июль 2013]({{urls.media}}/1375131668301-600.jpeg "Водопады.")
 
-<figure>
-	<img src="{{urls.media}}/1375131674243-600.jpeg" alt="Briksdalsbreen :: Июль 2013" />
-	<figcaption><p>Ледник.</p></figcaption>
-</figure>
+![Briksdalsbreen :: Июль 2013]({{urls.media}}/1375131674243-600.jpeg "Ледник.")
 
-<figure>
-	<img src="{{urls.media}}/1375131680501-600.jpeg" alt="Briksdalsbreen :: Июль 2013" />
-	<figcaption><p>Сосны удачно выросли на переднем плане.</p></figcaption>
-</figure>
+![Briksdalsbreen :: Июль 2013]({{urls.media}}/1375131680501-600.jpeg "Сосны удачно выросли на переднем плане.")

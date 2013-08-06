@@ -5,27 +5,12 @@ description: Bygdøy photos
 tags: [Reisen, Norge]
 categories: Photos
 ---
-<figure>
-	<img src="{{urls.media}}/1375476317597-600.jpeg" alt="Bygdøy :: Июль 2013" />
-	<figcaption><p>Bygdøy — это Беверли Хиллс в Осло. Район для небедных.</p></figcaption>
-</figure>
+![Bygdøy :: Июль 2013]({{urls.media}}/1375476317597-600.jpeg "Bygdøy — это Беверли Хиллс в Осло. Район для небедных.")
 
-<figure>
-	<img src="{{urls.media}}/1375476309742-600.jpeg" alt="Bygdøy :: Июль 2013" />
-	<figcaption><p>Лестница в небо.</p></figcaption>
-</figure>
+![Bygdøy :: Июль 2013]({{urls.media}}/1375476309742-600.jpeg "Лестница в небо.")
 
-<figure>
-	<img src="{{urls.media}}/1375476313265-600.jpeg" alt="Bygdøy :: Июль 2013" />
-	<figcaption><p>Бухта, китайцы и указатель «направо», сложенный из камней.</p></figcaption>
-</figure>
+![Bygdøy :: Июль 2013]({{urls.media}}/1375476313265-600.jpeg "Бухта, китайцы и указатель «направо», сложенный из камней.")
 
-<figure>
-	<img src="{{urls.media}}/1375476321266-600.jpeg" alt="Bygdøy :: Июль 2013" />
-	<figcaption><p>Идол.</p></figcaption>
-</figure>
+![Bygdøy :: Июль 2013]({{urls.media}}/1375476321266-600.jpeg "Идол.")
 
-<figure>
-	<img src="{{urls.media}}/1375476324995-600.jpeg" alt="Bygdøy :: Июль 2013" />
-	<figcaption><p>Бакланы.</p></figcaption>
-</figure>
+![Bygdøy :: Июль 2013]({{urls.media}}/1375476324995-600.jpeg "Бакланы.")

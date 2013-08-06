@@ -5,32 +5,14 @@ description: Skelefteå photos
 tags: [Reisen, Swerige]
 categories: Photos
 ---
-<figure>
-	<img src="{{urls.media}}/1374691327094-600.jpeg" alt="Skelefteå :: Июль 2013" />
-	<figcaption><p>Памятник не тому, чему вы подумали.</p></figcaption>
-</figure>
+![Skelefteå :: Июль 2013]({{urls.media}}/1374691327094-600.jpeg "Памятник не тому, чему вы подумали.")
 
-<figure>
-	<img src="{{urls.media}}/1374691331595-600.jpeg" alt="Skelefteå :: Июль 2013" />
-	<figcaption><p>Променад в центре заканчивается церковью.</p></figcaption>
-</figure>
+![Skelefteå :: Июль 2013]({{urls.media}}/1374691331595-600.jpeg "Променад в центре заканчивается церковью.")
 
-<figure>
-	<img src="{{urls.media}}/1374691336131-600.jpeg" alt="Skelefteå :: Июль 2013" />
-	<figcaption><p>Фонтан.</p></figcaption>
-</figure>
+![Skelefteå :: Июль 2013]({{urls.media}}/1374691336131-600.jpeg "Фонтан.")
 
-<figure>
-	<img src="{{urls.media}}/1374691340764-600.jpeg" alt="Skelefteå :: Июль 2013" />
-	<figcaption><p>Миссионистская церковь (если я правильно перевел «Missionskyrkan»).</p></figcaption>
-</figure>
+![Skelefteå :: Июль 2013]({{urls.media}}/1374691340764-600.jpeg "Миссионистская церковь (если я правильно перевел «Missionskyrkan»).")
 
-<figure>
-	<img src="{{urls.media}}/1374691346139-600.jpeg" alt="Skelefteå :: Июль 2013" />
-	<figcaption><p>Променадная церковь.</p></figcaption>
-</figure>
+![Skelefteå :: Июль 2013]({{urls.media}}/1374691346139-600.jpeg "Променадная церковь.")
 
-<figure>
-	<img src="{{urls.media}}/1374691351296-600.jpeg" alt="Skelefteå :: Июль 2013" />
-	<figcaption><p>Памятник похмельной женщине.</p></figcaption>
-</figure>
+![Skelefteå :: Июль 2013]({{urls.media}}/1374691351296-600.jpeg "Памятник похмельной женщине.")

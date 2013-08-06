@@ -5,32 +5,14 @@ description: Bøyabreen photos
 tags: [Reisen, Norge]
 categories: Photos
 ---
-<figure>
-	<img src="{{urls.media}}/1375131591234-600.jpeg" alt="Bøyabreen :: Июль 2013" />
-	<figcaption><p>Нет, это не вулкан.</p></figcaption>
-</figure>
+![Bøyabreen :: Июль 2013]({{urls.media}}/1375131591234-600.jpeg "Нет, это не вулкан.")
 
-<figure>
-	<img src="{{urls.media}}/1375131595616-600.jpeg" alt="Bøyabreen :: Июль 2013" />
-	<figcaption><p>Белый снег, серый лед.</p></figcaption>
-</figure>
+![Bøyabreen :: Июль 2013]({{urls.media}}/1375131595616-600.jpeg "Белый снег, серый лед.")
 
-<figure>
-	<img src="{{urls.media}}/1375131600460-600.jpeg" alt="Bøyabreen :: Июль 2013" />
-	<figcaption><p>Кафе у изножия ледника.</p></figcaption>
-</figure>
+![Bøyabreen :: Июль 2013]({{urls.media}}/1375131600460-600.jpeg "Кафе у изножия ледника.")
 
-<figure>
-	<img src="{{urls.media}}/1375131604610-600.jpeg" alt="Bøyabreen :: Июль 2013" />
-	<figcaption><p>Клубится.</p></figcaption>
-</figure>
+![Bøyabreen :: Июль 2013]({{urls.media}}/1375131604610-600.jpeg "Клубится.")
 
-<figure>
-	<img src="{{urls.media}}/1375131609679-600.jpeg" alt="Bøyabreen :: Июль 2013" />
-	<figcaption><p>Водопады.</p></figcaption>
-</figure>
+![Bøyabreen :: Июль 2013]({{urls.media}}/1375131609679-600.jpeg "Водопады.")
 
-<figure>
-	<img src="{{urls.media}}/1375131613902-600.jpeg" alt="Bøyabreen :: Июль 2013" />
-	<figcaption><p>Лед.</p></figcaption>
-</figure>
+![Bøyabreen :: Июль 2013]({{urls.media}}/1375131613902-600.jpeg "Лед.")

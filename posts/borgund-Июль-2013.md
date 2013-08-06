@@ -5,37 +5,16 @@ description: Borgund photos
 tags: [Reisen, Norge]
 categories: Photos
 ---
-<figure>
-	<img src="{{urls.media}}/1375072589680-600.jpeg" alt="Berluga :: Июль 2013" />
-	<figcaption><p>Почти шлем Нибелунгов. Аутентичная расческа викингских женщин.</p></figcaption>
-</figure>
+![Berluga :: Июль 2013]({{urls.media}}/1375072589680-600.jpeg "Почти шлем Нибелунгов. Аутентичная расческа викингских женщин.")
 
-<figure>
-	<img src="{{urls.media}}/1375072594823-600.jpeg" alt="Berluga :: Июль 2013" />
-	<figcaption><p>Церковь, XI век.</p></figcaption>
-</figure>
+![Berluga :: Июль 2013]({{urls.media}}/1375072594823-600.jpeg "Церковь, XI век.")
 
-<figure>
-	<img src="{{urls.media}}/1375072599872-600.jpeg" alt="Berluga :: Июль 2013" />
-	<figcaption><p>Церковь, XI век.</p></figcaption>
-</figure>
+![Berluga :: Июль 2013]({{urls.media}}/1375072599872-600.jpeg "Церковь, XI век.")
 
-<figure>
-	<img src="{{urls.media}}/1375072604722-600.jpeg" alt="Berluga :: Июль 2013" />
-	<figcaption><p>Церковь, XI век.</p></figcaption>
-</figure>
+![Berluga :: Июль 2013]({{urls.media}}/1375072604722-600.jpeg "Церковь, XI век.")
 
-<figure>
-	<img src="{{urls.media}}/1375072609998-600.jpeg" alt="Berluga :: Июль 2013" />
-	<figcaption><p>Церковь, XI век.</p></figcaption>
-</figure>
+![Berluga :: Июль 2013]({{urls.media}}/1375072609998-600.jpeg "Церковь, XI век.")
 
-<figure>
-	<img src="{{urls.media}}/1375072614451-600.jpeg" alt="Berluga :: Июль 2013" />
-	<figcaption><p>Церковь 2.0, XX век.</p></figcaption>
-</figure>
+![Berluga :: Июль 2013]({{urls.media}}/1375072614451-600.jpeg "Церковь 2.0, XX век.")
 
-<figure>
-	<img src="{{urls.media}}/1375072617669-600.jpeg" alt="Berluga :: Июль 2013" />
-	<figcaption><p>Типичное норвержское гостеприимство.</p></figcaption>
-</figure>
+![Berluga :: Июль 2013]({{urls.media}}/1375072617669-600.jpeg "Типичное норвержское гостеприимство.")
