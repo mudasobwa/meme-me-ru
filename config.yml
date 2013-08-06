@@ -49,6 +49,7 @@ posts:
     # Always start with a forward slash, as ruhoh will internally respect any base_path you set.
     url: "/posts/index/"
     per_page: 1
+    borders: 5
     # Set the custom page you want page#1 of your posts paginator to link to. (default: /posts/index/1)
     # Note the default is technically <paginator.url>/1 just as the other paginated pages.
     # It is up to you to display the paginator_pagination links somewhere in this case.

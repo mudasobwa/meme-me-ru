@@ -133,7 +133,7 @@ module Ruhoh::Resources::Pages
           Ruhoh::Friend.say { plain "        ⇒ without watermark" }
         end
 
-        curr.write(currfile) { self.quality = 95 }
+        curr.write(currfile) { self.quality = 90 }
       }
       result
     end
@@ -144,16 +144,9 @@ module Ruhoh::Resources::Pages
                  gsub('{{DATE}}', Time.now.strftime('%Y-%m-%d')).
                  gsub('{{TITLE}}', title)
 
-# FIXME This is to be done thru templates
-#      output += (@collection.scaffold(_image) || '').
-#                 gsub('{{IMGFILE}}', "/media/#{basename}").
-#                 gsub('{{IMGTITLE}}', title)
-
       basename.each { |bn| 
-        output += "\n<figure>\n" + \
-                  "\t<img src=\"{{urls.media}}/#{bn}\" alt=\"#{title}\" />\n" + \
-                  "\t<figcaption><p>#{title}</p></figcaption>\n" + \
-                  "</figure>\n"
+        # ![Test image]({{urls.media}}/1375648795555-600.jpeg "Test title")
+        output += "\n![#{title}]({{urls.media}}/#{bn} '#{title}')\n"
       }
 
       File.open(filename, 'w:UTF-8') { |f| f.puts output }
