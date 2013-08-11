@@ -1,6 +1,7 @@
 # encoding: utf-8
 
 require 'RMagick'
+require 'digest/md5'
 
 module Ruhoh::Resources::Pages
   class Client
@@ -39,6 +40,10 @@ module Ruhoh::Resources::Pages
 		end
 
     private 
+    def img_md5 img
+      Digest::MD5.hexdigest(img.to_blob)
+    end
+
     def report_img_data img
       Ruhoh::Friend.say { 
         green "Image loaded successfully:"
@@ -61,6 +66,8 @@ module Ruhoh::Resources::Pages
           "inch"
         end
         cyan  "   Resolution: #{img.x_resolution.to_i}x#{img.y_resolution.to_i} pixels/#{units}"
+        # 36867 0x9003  DateTimeOriginal  The date and time when the original image data was generated.
+        cyan  "   DateTime: #{img.get_exif_by_number(36867)}"
         if img.properties.length > 0
             plain "   Properties:"
             img.properties { |name,value|
@@ -88,12 +95,18 @@ module Ruhoh::Resources::Pages
         img.rotate!(-90)
       end
 
-      now = (Time.now.to_f * 1000.0).to_i
+      imgname = img_md5(img)
+      imgformat = case img.format.downcase
+                  when 'png' then 'png'
+                  when 'gif' then 'gif'
+                  else 'jpg'
+                  end
       img_config = @ruhoh.config['images']
       result = nil
 
-      # TODO Find out, how we can get this info from EXIF!!
-      date = Date.parse(img.properties['exif:DateTime'].gsub(/:/, '/')) if img.properties['exif:DateTime']
+      date = img.get_exif_by_number(36867)
+      date = Date.parse(date) if date
+      date ||= Date.parse(img.properties['exif:DateTime'].gsub(/:/, '/')) if img.properties['exif:DateTime']
       date ||= Date.parse(img.properties['date:modify']) if img.properties['date:modify']
       date ||= Date.parse(img.properties['date:create']) if img.properties['date:create']
       date ||= Date.parse(img.properties['xap:CreateDate']) if img.properties['xap:CreateDate']
@@ -104,7 +117,7 @@ module Ruhoh::Resources::Pages
         next if sz >= img.columns
         curr = img.resize_to_fit(sz)
 
-        imgfilename = "#{now}-#{sz}.#{img.format.downcase}"
+        imgfilename = "#{imgname}-#{sz}.#{imgformat}"
         result = imgfilename unless result
         currfile = File.join(@ruhoh.paths.base, "media", imgfilename)
         Ruhoh::Friend.say { 
@@ -145,8 +158,9 @@ module Ruhoh::Resources::Pages
                  gsub('{{TITLE}}', title)
 
       basename.each { |bn| 
+        bna = File.basename(bn, '.*')
         # ![Test image]({{urls.media}}/1375648795555-600.jpeg "Test title")
-        output += "\n![#{title}]({{urls.media}}/#{bn} '#{title}')\n"
+        output += "\n<a id='#{bna}'></a>![#{title}]({{urls.media}}/#{bn} '#{title}')\n"
       }
 
       File.open(filename, 'w:UTF-8') { |f| f.puts output }
