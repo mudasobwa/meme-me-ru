@@ -20,6 +20,13 @@ blockquote p {
   font-family: 'Ubuntu';
 }
 
+figure, figcaption { border: 1px solid #ddd; background-color: #f9f9f9; padding: 5px; }
+figure { display: table;  border-bottom: none; }
+figcaption { display: table-caption; caption-side: bottom; border-top: none; padding-top: 0; }
+figcaption p { margin: 0; }
+
+div.preview { padding-left: 40px; }
+div.content > div.preview { display: none; }
 
 .navbar .nav {
   float:right;
