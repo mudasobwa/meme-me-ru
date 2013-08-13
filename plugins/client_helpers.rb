@@ -3,6 +3,8 @@
 require 'RMagick'
 require 'digest/md5'
 
+require_relative 'rmagick_monkeypatches'
+
 module Ruhoh::Resources::Pages
   class Client
   	Help_Image = [
@@ -14,21 +16,78 @@ module Ruhoh::Resources::Pages
 
 		def image
       filename, title = filename_and_title @args[3]
+      if File.directory?(@args[2])
+        # Update summary when new image is to be added to existing folder
+        sum_file = "#{File.basename(@args[2]).gsub(/\W/,'-')}.jpg"
+        Magick::ImageList::preview(@args[2]).write File.join(@ruhoh.paths.base, "media", sum_file)
+        create_template(filename, title, Dir.entries(@args[2]).map { |d| File.join(@args[2], d) }, sum_file)
+      else
+        update_template(filename, title, @args[2])
+      end
+    end
+
+  private
+    def debug_mode?
+      true
+    end
+
+    def img_md5 img
+      Digest::MD5.hexdigest(img.to_blob)
+    end
+
+    def fig anchor, title, file
+      # ![Test image]({{urls.media}}/1375648795555-600.jpeg "Test title")
+      "\n<a id='#{anchor}'></a>![#{title}]({{urls.media}}/#{file} '#{title}')\n"
+    end
+
+    def preview title, file
+      "\n<div class='preview'><img src='{{urls.media}}/#{file}' alt='#{title}'></div>\n"
+    end
+
+    def update_template filename, title, img
+      if File.exist?(filename)
+        File.write filename, 
+                   fig(File.basename(name, '.*'), title, (scale_images([img])).first),
+                   File.size(filename),
+                   mode: 'a'
+        res = @collection.resource_name
+        Ruhoh::Friend.say { green "Updated #{res} ⇒ “#{filename}”" }
+      else 
+        create_template filename, title, [img]
+      end
+    end
+
+    def create_template filename, title, imgs, summary
+      FileUtils.mkdir_p File.dirname(filename)
+      output =  (@collection.scaffold || '').
+                 gsub('{{DATE}}', Time.now.strftime('%Y-%m-%d')).
+                 gsub('{{TITLE}}', title)
+
+      output += preview(title, summary) unless summary.nil?
+
+      scale_images(imgs).each { |img| 
+        output += fig(File.basename(img, '.*'), title, img)
+      }
+      File.open(filename, 'w:UTF-8') { |f| f.puts output }
+      res = @collection.resource_name
+      Ruhoh::Friend.say { green "New #{res} ⇒ “#{filename}”" }
+    end
+
+    def scale_images imgs
       begin
-        bn = []
-        (File.directory?(@args[2]) ? 
-              Dir.entries(@args[2]).map {|d| File.join(@args[2], d) } : [@args[2]]).each { |f| 
-          Ruhoh::Friend.say { blue "Processing #{f}..." }
+        img_names = []
+        imgs.each { |f| 
+          Ruhoh::Friend.say { blue "Scaling #{f}..." }
           begin
             img = Magick::Image::read(f).first
             report_img_data img
-            bn << scale_images(img, title)
+            img_names << scale_image(img)
           rescue
             Ruhoh::Friend.say { yellow "Found non-image file #{f}. Skipping..." }
           end
         }
-        raise if bn.empty?
-        create_template filename, title, bn
+        raise if img_names.empty?
+        img_names
       rescue => e
         Ruhoh::Friend.say { 
           red "Image creation requires a valid image file."
@@ -38,11 +97,6 @@ module Ruhoh::Resources::Pages
         }
       end
 		end
-
-    private 
-    def img_md5 img
-      Digest::MD5.hexdigest(img.to_blob)
-    end
 
     def report_img_data img
       Ruhoh::Friend.say { 
@@ -67,8 +121,8 @@ module Ruhoh::Resources::Pages
         end
         cyan  "   Resolution: #{img.x_resolution.to_i}x#{img.y_resolution.to_i} pixels/#{units}"
         # 36867 0x9003  DateTimeOriginal  The date and time when the original image data was generated.
-        cyan  "   DateTime: #{img.get_exif_by_number(36867)}"
-        if img.properties.length > 0
+        cyan  "   DateTime: #{img.get_exif_by_number(36867)[36867]}"
+        if false && img.properties.length > 0
             plain "   Properties:"
             img.properties { |name,value|
               if name =~ /date/i
@@ -85,7 +139,7 @@ module Ruhoh::Resources::Pages
       }
     end
 
-    def scale_images img, title
+    def scale_image img
       case img.orientation 
       when Magick::RightTopOrientation
         img.rotate!(90)
@@ -104,8 +158,8 @@ module Ruhoh::Resources::Pages
       img_config = @ruhoh.config['images']
       result = nil
 
-      date = img.get_exif_by_number(36867)
-      date = Date.parse(date) if date
+      date = img.get_exif_by_number(36867)[36867]
+      date = Date.parse(date.gsub(/:/, '/')) if date
       date ||= Date.parse(img.properties['exif:DateTime'].gsub(/:/, '/')) if img.properties['exif:DateTime']
       date ||= Date.parse(img.properties['date:modify']) if img.properties['date:modify']
       date ||= Date.parse(img.properties['date:create']) if img.properties['date:create']
@@ -149,27 +203,6 @@ module Ruhoh::Resources::Pages
         curr.write(currfile) { self.quality = 90 }
       }
       result
-    end
-
-    def create_template filename, title, basename
-      FileUtils.mkdir_p File.dirname(filename)
-      output =  (@collection.scaffold || '').
-                 gsub('{{DATE}}', Time.now.strftime('%Y-%m-%d')).
-                 gsub('{{TITLE}}', title)
-
-      basename.each { |bn| 
-        bna = File.basename(bn, '.*')
-        # ![Test image]({{urls.media}}/1375648795555-600.jpeg "Test title")
-        output += "\n<a id='#{bna}'></a>![#{title}]({{urls.media}}/#{bn} '#{title}')\n"
-      }
-
-      File.open(filename, 'w:UTF-8') { |f| f.puts output }
-
-      resource_name = @collection.resource_name
-      Ruhoh::Friend.say { 
-        green "New #{resource_name}:"
-        cyan  "        ⇒ #{filename}"
-      }
     end
 
   end
