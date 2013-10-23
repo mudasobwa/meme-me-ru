@@ -7,6 +7,8 @@ categories: Photos
 ---
 <div class='preview'><img src='{{urls.media}}/-rusk-ldvik-OK.jpg' alt='Örnsköldsvik'></div>
 
+![Örnsköldsvik map](http://maps.googleapis.com/maps/api/staticmap?center=Örnsköldsvik&zoom=6&size=600x300&maptype=roadmap&sensor=true "Örnsköldsvik")
+
 ![Örnsköldsvik :: Июль 2013]({{urls.media}}/10f6394b55a8da20a7425717651a5147-600.jpg "Памятник всему непознанному в человеке. Или еще чему.")
 
 ![Örnsköldsvik :: Июль 2013]({{urls.media}}/2bd109dc67d9026259d7fe2628833537-600.jpg "Колонна после обрезания.")

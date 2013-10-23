@@ -4,42 +4,35 @@ require 'RMagick'
 
 module Magick
   class ImageList
-    def self.debug_mode?
-      true
-    end
-    def self.preview dir, width=120, cols=5, options={}
+    def self.preview files, options={}
       options = {
-        :shadow           => 'true',
-        :shadow_color     => 'gray40',
-        :background_color => 'black',
-        :compose          => ChangeMaskCompositeOp,
-        :border_color     => 'gray20',
-        :border_width     => 1
+        :columns       => 5,
+        :scale_range   => 0.1,
+        :thumb_width   => 120,
+        :rotate_angle  => 20,
+        :background    => 'white',
+        :border        => '#DDDDDD'
       }.merge(options)
+      files = "#{files}/*" if File.directory?(files)
       imgs = ImageList.new
-      imgnull = Image.new(width,width) { self.background_color = 'transparent' }
-      imgnull2 = Image.new(width,width) { self.background_color = 'transparent' }
-      (cols+1).times { imgs << imgnull.dup }
-      imgs << imgnull2.dup
-      Dir.glob("#{dir}/**") { |f|
-        print '*' if debug_mode?
+      imgnull = Image.new(options[:thumb_width],options[:thumb_width]) { self.background_color = 'transparent' }
+      (options[:columns]+2).times { imgs << imgnull.dup }
+      Dir.glob("#{files}") { |f|
         Image::read(f).each { |i| 
-          scale = (0.9 + 0.2*rand(1))*width/[i.columns, i.rows].max
-          imgs << imgnull.dup if (imgs.size % (cols+2)).zero?
-          imgs << i.auto_orient.thumbnail(scale).polaroid(rand(40)-20)
-          imgs << imgnull2.dup if (imgs.size % (cols+2)) == cols+1
-        } rescue puts "ERROR: #{$!}" if debug_mode?  # simply skipping non-image files
+          scale = (1.0 + options[:scale_range]*Random::rand(-1.0..1.0))*options[:thumb_width]/[i.columns, i.rows].max
+          imgs << imgnull.dup if (imgs.size % (options[:columns]+2)).zero?
+          imgs << i.auto_orient.thumbnail(scale).polaroid(
+            Random::rand(-options[:rotate_angle]..options[:rotate_angle])
+          )
+          imgs << imgnull.dup if (imgs.size % (options[:columns]+2)) == options[:columns]+1
+        } rescue puts "Skipping error: #{$!}"  # simply skip non-image files
       }
-      # Fill the rest
-      (cols+1-(imgs.size % (cols+2))).times { imgs << imgnull.dup }
-      (cols+3).times { imgs << imgnull2.dup }
-      puts " => #{imgs.size}" if debug_mode?
+      (2*options[:columns]+4-(imgs.size % (options[:columns]+2))).times { imgs << imgnull.dup }
       imgs.montage { 
-        self.tile             = Magick::Geometry.new(cols+2) 
-        self.geometry         = "-#{width/5}-#{width/4}"
-        self.background_color = 'white'
-        self.border_color     = 'lavender'
-      }.trim(true).rotate(-5).border(1,1,'#DDD')
+        self.tile             = Magick::Geometry.new(options[:columns]+2) 
+        self.geometry         = "-#{options[:thumb_width]/5}-#{options[:thumb_width]/4}"
+        self.background_color = options[:background]
+      }.trim(true).border(10,10,options[:background]).border(1,1,options[:border])
     end
   end
 end
