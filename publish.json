@@ -1,0 +1,5 @@
+{
+    "rsync" : {
+        "command" : "rsync compiled/. -avz --delete --exclude-from rsync-excluded.txt rocketscie@mudasobwa.ru:/home/r/rocketscie/meme-me/public_html"
+    }
+}

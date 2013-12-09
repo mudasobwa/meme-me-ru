@@ -22,13 +22,17 @@ layout : default
 
     {{#collection.paginator}}
       <div class="{{ collection.resource_name}}">
-        <h3 class="title"><a href="{{url}}">{{title}}</a> <span class="date">{{ date }}</span></h3>
+        {{#summary_present}}
+          <h3 class="title"><a href="{{url}}">{{  title  }}</a> <span class="date">{{ date }}</span></h3>
 
-        {{{ summary }}}
-
+          {{{ utf_summary }}}
+        {{/summary_present}}
+        {{^summary_present}}
+          <h3 class="schild">{{ title }}</h3>
+        {{/summary_present}}
       </div>
     {{/collection.paginator}}
-    
+
     <p> </p><hr>
 
     <div class="pagination">
