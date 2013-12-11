@@ -4,6 +4,7 @@ gem 'psych'
 gem 'ruhoh'
 
 gem 'rmagick', '2.13.2'
+gem 'rmagick-screwdrivers'
 
 # To enable asset packaging and processing via sprockets:
 #
