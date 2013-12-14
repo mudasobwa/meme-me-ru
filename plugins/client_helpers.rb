@@ -1,25 +1,24 @@
 # encoding: utf-8
 
-require 'RMagick'
 require 'digest/md5'
-
-require_relative 'rmagick_monkeypatches'
+require 'RMagick'
+require 'rmagick/screwdrivers'
 
 module Ruhoh::Resources::Pages
   class Client
-  	Help_Image = [
-    	{
-      	"command" => "image <img_file> <title>",
-      	"desc" => "Create a new post with image."
-    	}
+    Help_Image = [
+      {
+        "command" => "image <img_file> <title>",
+        "desc" => "Create a new post with image."
+      }
     ]
 
-		def image
+    def image
       filename, title = filename_and_title @args[3]
       if File.directory?(@args[2])
         # Update summary when new image is to be added to existing folder
         sum_file = "#{File.basename(@args[2]).gsub(/\W/,'-')}.jpg"
-        Magick::ImageList::preview(@args[2]).write File.join(@ruhoh.paths.base, "media", sum_file)
+        Magick::Screwdrivers.collage(@args[2]).write File.join(@ruhoh.paths.base, "media", sum_file)
         create_template(filename, title, Dir.entries(@args[2]).map { |d| File.join(@args[2], d) }, sum_file)
       else
         update_template(filename, title, @args[2])
@@ -29,6 +28,29 @@ module Ruhoh::Resources::Pages
   private
     def debug_mode?
       true
+    end
+
+    def filename_and_title(s=nil,opts={})
+      begin
+        file = s || "untitled"
+        ext = File.extname(file).to_s
+        ext  = ext.empty? ? @collection.config["ext"] : ext
+
+        # filepath vs title
+        name =  if file.include?('/')
+                  name = File.basename(file, ext).gsub(/\s+/, '-')
+                  File.join(File.dirname(file), name)
+                else
+                  Ruhoh::Utils.to_slug(File.basename(file, ext))
+                end
+
+        name = "#{name}-#{@iterator}" unless @iterator.zero?
+        filename = opts[:draft] ?
+          File.join(@ruhoh.paths.base, @collection.resource_name, "drafts", "#{name}#{ext}") :
+          File.join(@ruhoh.paths.base, @collection.resource_name, "#{name}#{ext}")
+        @iterator += 1
+      end while File.exist?(filename)
+      [filename, file.gsub(/.*?\//, '')]
     end
 
     def img_md5 img
@@ -96,7 +118,7 @@ module Ruhoh::Resources::Pages
           exit
         }
       end
-		end
+    end
 
     def report_img_data img
       Ruhoh::Friend.say { 
