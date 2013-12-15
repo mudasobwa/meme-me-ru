@@ -3,6 +3,7 @@
 require 'digest/md5'
 require 'RMagick'
 require 'rmagick/screwdrivers'
+require 'qipowl/core/monkeypatches'
 
 module Ruhoh::Resources::Pages
   class Client
@@ -37,12 +38,9 @@ module Ruhoh::Resources::Pages
         ext  = ext.empty? ? @collection.config["ext"] : ext
 
         # filepath vs title
-        name =  if file.include?('/')
-                  name = File.basename(file, ext).gsub(/\s+/, '-')
-                  File.join(File.dirname(file), name)
-                else
-                  Ruhoh::Utils.to_slug(File.basename(file, ext))
-                end
+        name = file.include?('/') ?
+               File.join(File.dirname(file), File.basename(file, ext).gsub(/\s+/, '-').to_filename) :
+               file.to_filename
 
         name = "#{name}-#{@iterator}" unless @iterator.zero?
         filename = opts[:draft] ?

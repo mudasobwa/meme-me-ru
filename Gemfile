@@ -5,6 +5,7 @@ gem 'ruhoh'
 
 gem 'rmagick', '2.13.2'
 gem 'rmagick-screwdrivers'
+gem 'qipowl'
 
 # To enable asset packaging and processing via sprockets:
 #
