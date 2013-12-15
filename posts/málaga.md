@@ -36,6 +36,6 @@ categories: Photos
 
 <a id='7fba835ed43355a9f2cba629b9080999-600'></a>![Málaga]({{urls.media}}/7fba835ed43355a9f2cba629b9080999-600.jpg 'Домик с портальчиком.')
 
-<a id='2793a9d051439addda206a462a7d6cde-600'></a>![Málaga]({{urls.media}}/2793a9d051439addda206a462a7d6cde-600.jpg 'Улочка во время сиесты.')
+<a id='ef986e9957bc0aa5fbadbbb05be4f288-600'></a>![Málaga]({{urls.media}}/ef986e9957bc0aa5fbadbbb05be4f288-600.jpg 'Улочка во время сиесты.')
 
-<a id='ef986e9957bc0aa5fbadbbb05be4f288-600'></a>![Málaga]({{urls.media}}/ef986e9957bc0aa5fbadbbb05be4f288-600.jpg 'Фонари отныне — моя страсть.')
+<a id='2793a9d051439addda206a462a7d6cde-600'></a>![Málaga]({{urls.media}}/2793a9d051439addda206a462a7d6cde-600.jpg 'Фонари отныне — моя страсть.')
