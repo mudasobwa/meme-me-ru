@@ -85,8 +85,8 @@ module Ruhoh::Resources::Pages
 
       output += preview(title, summary) unless summary.nil?
 
-      scale_images(imgs).each { |img| 
-        output += fig(File.basename(img, '.*'), title, img)
+      scale_images(imgs).each { |img|
+        output += (fig(File.basename(img, '.*'), title, img) rescue '')
       }
       File.open(filename, 'w:UTF-8') { |f| f.puts output }
       res = @collection.resource_name
