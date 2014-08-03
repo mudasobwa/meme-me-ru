@@ -1,6 +1,6 @@
 ---
 title: 'Blanes'
-date: '2014-08-03 16:00'
+date: '2014-08-02 16:00'
 tags: [Reisen, España]
 ---
 
