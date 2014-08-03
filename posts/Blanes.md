@@ -16,19 +16,19 @@ tags: [Reisen, España]
 
 <a id='9e83ac2675773aea25ac44bcfa1815fa-600'></a>![Blanes]({{urls.media}}/9e83ac2675773aea25ac44bcfa1815fa-600.jpg 'Современный европейский искусственный муравей')
 
-<a id='3aaf17b99e92b15f7890414835a929cf-600'></a>![Blanes]({{urls.media}}/3aaf17b99e92b15f7890414835a929cf-600.jpg 'Дома-соседи')
+<a id='3aaf17b99e92b15f7890414835a929cf-600'></a>![Blanes]({{urls.media}}/3aaf17b99e92b15f7890414835a929cf-600.jpg 'Дома-соседи …')
 
-<a id='e14f4634a520ce68991d8f75f7b8b48f-600'></a>![Blanes]({{urls.media}}/e14f4634a520ce68991d8f75f7b8b48f-600.jpg 'И еще')
+<a id='9e25a473ba15140c47677b3a557b210e-600'></a>![Blanes]({{urls.media}}/9e25a473ba15140c47677b3a557b210e-600.jpg '… и еще')
 
-<a id='f85e636a1d588421a3eae80adba78bb8-600'></a>![Blanes]({{urls.media}}/f85e636a1d588421a3eae80adba78bb8-600.jpg 'Часовенка')
+<a id='e14f4634a520ce68991d8f75f7b8b48f-600'></a>![Blanes]({{urls.media}}/e14f4634a520ce68991d8f75f7b8b48f-600.jpg 'Часовенка')
+
+<a id='f85e636a1d588421a3eae80adba78bb8-600'></a>![Blanes]({{urls.media}}/f85e636a1d588421a3eae80adba78bb8-600.jpg 'Человек с воздетыми к небу руками и две пальмы')
 
 <a id='1c8721d4e93f07d002459cab471abfb1-600'></a>![Blanes]({{urls.media}}/1c8721d4e93f07d002459cab471abfb1-600.jpg 'Кораблестроитель в берете')
 
 <a id='b96d653cc2e2e8d83181cbadb2ed3e2f-600'></a>![Blanes]({{urls.media}}/b96d653cc2e2e8d83181cbadb2ed3e2f-600.jpg 'Внебрачный сын мезонина и эркера')
 
 <a id='49a6573d55d60cf32df58bccbf74beef-600'></a>![Blanes]({{urls.media}}/49a6573d55d60cf32df58bccbf74beef-600.jpg 'Жилые кварталы')
-
-<a id='9e25a473ba15140c47677b3a557b210e-600'></a>![Blanes]({{urls.media}}/9e25a473ba15140c47677b3a557b210e-600.jpg 'Чувак и пальмы')
 
 <a id='9ba27dcfc97476411ea5a01b27329fdc-600'></a>![Blanes]({{urls.media}}/9ba27dcfc97476411ea5a01b27329fdc-600.jpg 'Также в этом районе…')
 

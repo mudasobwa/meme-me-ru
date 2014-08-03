@@ -12,9 +12,9 @@ tags: [Reisen, España]
 
 <a id='43ef7c477d866a4ef6f3a92235f59f1c-600'></a>![Besalú]({{urls.media}}/43ef7c477d866a4ef6f3a92235f59f1c-600.jpg 'Градские врата, вид снаружи')
 
-<a id='fd008821871b7f6770e07a9be65136fe-600'></a>![Besalú]({{urls.media}}/fd008821871b7f6770e07a9be65136fe-600.jpg 'Кофейня :: вместо вывески')
-
 <a id='ab484c53c9065119d001503c4b6a3f8e-600'></a>![Besalú]({{urls.media}}/ab484c53c9065119d001503c4b6a3f8e-600.jpg 'Местные')
+
+<a id='fd008821871b7f6770e07a9be65136fe-600'></a>![Besalú]({{urls.media}}/fd008821871b7f6770e07a9be65136fe-600.jpg 'Кофейня :: вместо вывески')
 
 <a id='38fc4cfb6156887e8a21c130420ba526-600'></a>![Besalú]({{urls.media}}/38fc4cfb6156887e8a21c130420ba526-600.jpg 'Пекарня :: вместо вывески')
 
