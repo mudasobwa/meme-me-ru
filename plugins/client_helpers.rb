@@ -224,6 +224,7 @@ module Ruhoh::Resources::Pages
           Ruhoh::Friend.say { plain "        ⇒ without watermark" }
         end
 
+        # curr.orienation = Magick::LeftTopOrientation
         curr.write(currfile) { self.quality = 90 }
       }
       result
