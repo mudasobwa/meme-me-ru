@@ -19,7 +19,7 @@ module Ruhoh::Resources::Pages
       if File.directory?(@args[2])
         # Update summary when new image is to be added to existing folder
         sum_file = "#{File.basename(@args[2]).gsub(/\W/,'-')}.jpg"
-        Magick::Screwdrivers.collage(@args[2]).write File.join(@ruhoh.paths.base, "media", sum_file)
+        Magick::Screwdrivers.collage(@args[2]).write File.join('/home/am/Projects/Sites/meme-me-ru', "media", sum_file)
         create_template(filename, title, Dir.entries(@args[2]).map { |d| File.join(@args[2], d) }, sum_file)
       else
         update_template(filename, title, @args[2])
@@ -45,7 +45,8 @@ module Ruhoh::Resources::Pages
         name = "#{name}-#{@iterator}" unless @iterator.zero?
         filename = opts[:draft] ?
           File.join(@ruhoh.paths.base, @collection.resource_name, "drafts", "#{name}#{ext}") :
-          File.join(@ruhoh.paths.base, @collection.resource_name, "#{name}#{ext}")
+          File.join('/home/am/Projects/Sites/meme-me-ru', @collection.resource_name, "#{name}#{ext}")
+#          File.join(@ruhoh.paths.base, @collection.resource_name, "#{name}#{ext}")
         @iterator += 1
       end while File.exist?(filename)
       [filename, file.gsub(/.*?\//, '')]
@@ -103,7 +104,10 @@ module Ruhoh::Resources::Pages
             report_img_data img
             img_names << scale_image(img)
           rescue
-            Ruhoh::Friend.say { yellow "Found non-image file #{f}. Skipping..." }
+            Ruhoh::Friend.say {
+              yellow "Found non-image file #{f}. Skipping..." 
+              red $!
+            }
           end
         }
         raise if img_names.empty?
