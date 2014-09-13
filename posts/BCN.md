@@ -1,8 +1,8 @@
 ---
 title: 'BCN'
 date: '2014-03-17 20:00'
-description: 'Barcelona photos'
-tags: [Reisen, Spain]
+categories: Photos
+tags: [Reisen, España]
 ---
 
 <div class='preview'><img src='{{urls.media}}/BCN-OK.jpg' alt='BCN'></div>

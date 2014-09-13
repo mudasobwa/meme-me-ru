@@ -1,6 +1,7 @@
 ---
 title: 'Besalú'
 date: '2014-08-03 15:00'
+categories: Photos
 tags: [Reisen, España]
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: 'Tibidabo'
-date: '2014-04-19'
-description: 'Tibidabo photos'
-tags: [Reisen, Spain]
+date: '2014-04-19 10:00'
+categories: Photos
+tags: [Reisen, España]
 ---
 
 <div class='preview'><img src='{{urls.media}}/TibidaboOK.jpg' alt='Тибидабо'></div>

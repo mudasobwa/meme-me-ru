@@ -2,7 +2,7 @@
 title: 'Lleida'
 date: '2014-08-17 11:00'
 tags: [Reisen, España]
-categories: Reisen photos
+categories: Photos
 ---
 
 <div class='preview'><img src='{{urls.media}}/Lleida-OK.jpg' alt='Lleida'></div>

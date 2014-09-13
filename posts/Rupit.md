@@ -1,6 +1,7 @@
 ---
 title: 'Rupit'
 date: '2014-08-03 10:00'
+categories: Photos
 tags: [Reisen, España]
 ---
 

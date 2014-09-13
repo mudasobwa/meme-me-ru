@@ -1,6 +1,7 @@
 ---
 title: 'Vilafranca del Penedès'
-date: '2014-08-30'
+date: '2014-08-30 12:00'
+categories: Photos
 tags: [Reisen, España]
 ---
 

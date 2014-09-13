@@ -1,6 +1,7 @@
 ---
 title: 'Girona'
 date: '2014-08-02 10:00'
+categories: Photos
 tags: [Reisen, España]
 ---
 
