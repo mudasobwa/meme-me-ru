@@ -2,7 +2,7 @@
 title: 'Poble Español :: Barandilla'
 date: '2014-08-10 18:00'
 tags: [España, Reisen]
-categoties: Photos
+categories: Photos
 ---
 
 <div class='preview'><img src='{{urls.media}}/Figures.jpg' alt='Poble Español :: Barandilla'></div>
