@@ -25,11 +25,15 @@ twitter :
   use : "theme"
 
 _root:
+  exclude: ['twitter']
   summary_lines: 0
   rss:
     enable: false
   paginator:
     enable: false
+
+pages:
+  exclude: ['twitter']
 
 posts:
   sort: ["date", "desc"]

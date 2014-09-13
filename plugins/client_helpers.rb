@@ -179,7 +179,10 @@ module Ruhoh::Resources::Pages
                   when 'gif' then 'gif'
                   else 'jpg'
                   end
-      img_config = @ruhoh.config['images']
+#      img_config = @ruhoh.config['images']
+      require 'yaml'
+      img_config = (YAML.load_file 'config.yml')['images']  
+
       result = nil
 
       date = img.get_exif_by_number(36867)[36867]
@@ -190,14 +193,14 @@ module Ruhoh::Resources::Pages
       date ||= Date.parse(img.properties['xap:CreateDate']) if img.properties['xap:CreateDate']
 
       # write images
-      scales = img_config['scales'] || [800,150]
+      scales = img_config['scales'] || [600]
       scales.each { |sz| 
         next if sz >= img.columns
         curr = img.resize_to_fit(sz)
 
         imgfilename = "#{imgname}-#{sz}.#{imgformat}"
         result = imgfilename unless result
-        currfile = File.join(@ruhoh.paths.base, "media", imgfilename)
+        currfile = File.join("media", imgfilename)
         Ruhoh::Friend.say { 
           green "Writing file #{currfile} (#{sz}×#{img.rows*sz/img.columns})"
         }

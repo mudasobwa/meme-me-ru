@@ -1,11 +1,13 @@
 source "https://rubygems.org"
 
 gem 'psych'
-gem 'ruhoh'
+gem 'ruhoh', :git => 'git://github.com/ruhoh/ruhoh.rb', :branch => 'master'
 
 gem 'rmagick', '2.13.2'
 gem 'rmagick-screwdrivers'
-gem 'qipowl'
+
+gem 'typogrowth', :git => 'git://github.com/mudasobwa/typogrowth', :branch => 'master'
+gem 'qipowl', :git => 'git://github.com/mudasobwa/qipowl', :branch => 'master'
 
 # To enable asset packaging and processing via sprockets:
 #
