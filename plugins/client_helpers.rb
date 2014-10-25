@@ -164,15 +164,6 @@ module Ruhoh::Resources::Pages
     end
 
     def scale_image img
-      case img.orientation 
-      when Magick::RightTopOrientation
-        img.rotate!(90)
-      when Magick::BottomRightOrientation
-        img.rotate!(180)
-      when Magick::LeftBottomOrientation
-        img.rotate!(-90)
-      end
-
       imgname = img_md5(img)
       imgformat = case img.format.downcase
                   when 'png' then 'png'
@@ -227,6 +218,14 @@ module Ruhoh::Resources::Pages
           Ruhoh::Friend.say { plain "        ⇒ without watermark" }
         end
 
+        case img.orientation
+        when Magick::RightTopOrientation
+          curr.rotate!(90)
+        when Magick::BottomRightOrientation
+          curr.rotate!(180)
+        when Magick::LeftBottomOrientation
+          curr.rotate!(-90)
+        end
         # curr.orienation = Magick::LeftTopOrientation
         curr.write(currfile) { self.quality = 90 }
       }
