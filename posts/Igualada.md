@@ -35,7 +35,7 @@ tags: [Reisen, España]
 
 <a id='b9a3cc787dc7c75c8d9b186639e3f258-600'></a>![Igualada]({{urls.media}}/b9a3cc787dc7c75c8d9b186639e3f258-600.jpg 'Найди стремительного голубя')
 
-<a id='8f6b0f0e121854c0bb9961cfc66d4691-600'></a>![Igualada]({{urls.media}}/8f6b0f0e121854c0bb9961cfc66d4691-600.jpg 'Питьевой фонтанчик (при чем тут шестерня? — Хрен его поймет')
+<a id='8f6b0f0e121854c0bb9961cfc66d4691-600'></a>![Igualada]({{urls.media}}/8f6b0f0e121854c0bb9961cfc66d4691-600.jpg 'Питьевой фонтанчик (причем тут шестерня? — Хрен его поймет)')
 
 <a id='f1755b069b3ecbd390f6994111f4a15e-600'></a>![Igualada]({{urls.media}}/f1755b069b3ecbd390f6994111f4a15e-600.jpg 'Просто домик')
 
