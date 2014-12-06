@@ -19,7 +19,7 @@ module Ruhoh::Resources::Pages
       if File.directory?(@args[2])
         # Update summary when new image is to be added to existing folder
         sum_file = "#{File.basename(@args[2]).gsub(/\W/,'-')}.jpg"
-        Magick::Screwdrivers.collage(@args[2]).write File.join('/home/am/Projects/Sites/meme-me-ru', "media", sum_file)
+        Magick::Screwdrivers.collage(@args[2]).write File.join('/home/am/Proyectos/Sites/meme-me-ru', "media", sum_file)
         create_template(filename, title, Dir.entries(@args[2]).map { |d| File.join(@args[2], d) }, sum_file)
       else
         update_template(filename, title, @args[2])
@@ -45,7 +45,7 @@ module Ruhoh::Resources::Pages
         name = "#{name}-#{@iterator}" unless @iterator.zero?
         filename = opts[:draft] ?
           File.join(@ruhoh.paths.base, @collection.resource_name, "drafts", "#{name}#{ext}") :
-          File.join('/home/am/Projects/Sites/meme-me-ru', @collection.resource_name, "#{name}#{ext}")
+          File.join('/home/am/Proyectos/Sites/meme-me-ru', @collection.resource_name, "#{name}#{ext}")
 #          File.join(@ruhoh.paths.base, @collection.resource_name, "#{name}#{ext}")
         @iterator += 1
       end while File.exist?(filename)
