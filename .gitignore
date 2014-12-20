@@ -1,4 +1,4 @@
 Gemfile.lock
-plugins/*
+plugins/**
 compiled/*
 media/*
