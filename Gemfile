@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem 'psych'
 gem 'ruhoh', :git => 'git://github.com/ruhoh/ruhoh.rb', :branch => 'master'
 
-gem 'rmagick', '2.13.2'
+gem 'rmagick'
 gem 'rmagick-screwdrivers'
 
 gem 'typogrowth', :git => 'git://github.com/mudasobwa/typogrowth', :branch => 'master'
