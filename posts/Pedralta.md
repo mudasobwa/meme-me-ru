@@ -23,13 +23,13 @@ categories: Photos
 
 <a id='33e30edd6eb4445fb68824499c35a3cd-600'></a>![Pedralta]({{urls.media}}/33e30edd6eb4445fb68824499c35a3cd-600.jpg 'На вершине скалы кто-то воздвиг неказистый крест')
 
-<a id='2b282d0d3031bd497a760ec85958aa1b-600'></a>![Pedralta]({{urls.media}}/2b282d0d3031bd497a760ec85958aa1b-600.jpg 'С разных ракурсов камень поход то на нос, то еще на что')
+<a id='2b282d0d3031bd497a760ec85958aa1b-600'></a>![Pedralta]({{urls.media}}/2b282d0d3031bd497a760ec85958aa1b-600.jpg 'С разных ракурсов камень походит то на нос, то еще на что')
 
 <a id='6cf4ca950664f0c18c692b90a8b7529c-600'></a>![Pedralta]({{urls.media}}/6cf4ca950664f0c18c692b90a8b7529c-600.jpg 'Ну вот на танк «Мэй Уэст», например')
 
 <a id='5238803a5a752ac1961291089b1935e9-600'></a>![Pedralta]({{urls.media}}/5238803a5a752ac1961291089b1935e9-600.jpg 'Тыл')
 
-<a id='5a4f8117a4e36da2fe09f104635c3824-600'></a>![Pedralta]({{urls.media}}/5a4f8117a4e36da2fe09f104635c3824-600.jpg 'Фотография с обложки жернала «Робототехника», каменный век')
+<a id='5a4f8117a4e36da2fe09f104635c3824-600'></a>![Pedralta]({{urls.media}}/5a4f8117a4e36da2fe09f104635c3824-600.jpg 'Фотография с обложки журнала «Робототехника», каменный век')
 
 <a id='1b6ebac0ff8d86cec9d66ea821523d90-600'></a>![Pedralta]({{urls.media}}/1b6ebac0ff8d86cec9d66ea821523d90-600.jpg 'Окрест')
 
