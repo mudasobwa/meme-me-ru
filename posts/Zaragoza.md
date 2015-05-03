@@ -15,11 +15,13 @@ categories: Photos
 
 <a id='7ceaf0dfd922fff55942a28f45a06737-800'></a>![Zaragoza]({{urls.media}}/7ceaf0dfd922fff55942a28f45a06737-800.jpg 'Этому чуваку больше пятисот лет')
 
-<a id='02fb50f353246d5f63913569e3f1f9c3-800'></a>![Zaragoza]({{urls.media}}/02fb50f353246d5f63913569e3f1f9c3-800.jpg 'Фонарик')
-
 <a id='96d613cee9f71057d9b5fd3d10a25193-800'></a>![Zaragoza]({{urls.media}}/96d613cee9f71057d9b5fd3d10a25193-800.jpg 'Соплеменников здесь уважают и чтут, хотя протагонист этой уорхоловской инсталляции на трансформаторной будке, возможно, никогда и не был в Арагоне')
 
 <a id='217d5bc2403a30007049e1c3efd52590-800'></a>![Zaragoza]({{urls.media}}/217d5bc2403a30007049e1c3efd52590-800.jpg 'Граффити много, и местами оно осмысленно и художественно')
+
+<a id='0da54827d476ba44fb868011b9910aa5-800'></a>![Zaragoza]({{urls.media}}/0da54827d476ba44fb868011b9910aa5-800.jpg 'Портал в пасторальный мир')
+
+<a id='18ded1410d8029e1236f4b6909c3aadb-800'></a>![Zaragoza]({{urls.media}}/18ded1410d8029e1236f4b6909c3aadb-800.jpg 'Портал к себе домой')
 
 <a id='75abb3eec5eccbeb8d19ef909ba2e603-800'></a>![Zaragoza]({{urls.media}}/75abb3eec5eccbeb8d19ef909ba2e603-800.jpg 'Алколось')
 
@@ -62,10 +64,6 @@ categories: Photos
 <a id='007b9d1ca1cc383d6c9c0b702f77b5d0-800'></a>![Zaragoza]({{urls.media}}/007b9d1ca1cc383d6c9c0b702f77b5d0-800.jpg 'Старый Арбат')
 
 <a id='f274712ee28709bece6a3dfc0e065f78-800'></a>![Zaragoza]({{urls.media}}/f274712ee28709bece6a3dfc0e065f78-800.jpg 'Этот замок вы увидите на обложке любого путеводителя по Сарагосе (новодел, ему около ста пятидесяти лет всего)')
-
-<a id='0da54827d476ba44fb868011b9910aa5-800'></a>![Zaragoza]({{urls.media}}/0da54827d476ba44fb868011b9910aa5-800.jpg 'Портал в пасторальный мир')
-
-<a id='18ded1410d8029e1236f4b6909c3aadb-800'></a>![Zaragoza]({{urls.media}}/18ded1410d8029e1236f4b6909c3aadb-800.jpg 'Портал к себе домой')
 
 <a id='52ca2f42ff31cd0b2029192498334eb4-800'></a>![Zaragoza]({{urls.media}}/52ca2f42ff31cd0b2029192498334eb4-800.jpg 'Школьная дверь')
 
