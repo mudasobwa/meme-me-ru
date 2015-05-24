@@ -9,7 +9,7 @@ categories: Photos
 
 Парк Лабиринт в Барселоне — внезапно оказался бюджетной копией Павловского парка под Ленинградом.
 
-<a id='d9786665c57326d8ee36394e4948cb9e-800'></a>![Laberint]({{urls.media}}/d9786665c57326d8ee36394e4948cb9e-800.jpg 'Шрот, фонтан и пергола')
+<a id='d9786665c57326d8ee36394e4948cb9e-800'></a>![Laberint]({{urls.media}}/d9786665c57326d8ee36394e4948cb9e-800.jpg 'Грот, фонтан и пергола')
 
 <a id='c6dc2e29d6c0e9a062312a7f5ba30c90-800'></a>![Laberint]({{urls.media}}/c6dc2e29d6c0e9a062312a7f5ba30c90-800.jpg 'Беседка')
 
@@ -17,7 +17,7 @@ categories: Photos
 
 <a id='49bb36ff7125c7dfdc35eb5aa630092f-800'></a>![Laberint]({{urls.media}}/49bb36ff7125c7dfdc35eb5aa630092f-800.jpg '... и ротонда')
 
-<a id='593ef1f3a4717adddf2e4cc6e20c8625-800'></a>![Laberint]({{urls.media}}/593ef1f3a4717adddf2e4cc6e20c8625-800.jpg 'Кабанам запрещается сблевыать яблочные огрызки')
+<a id='593ef1f3a4717adddf2e4cc6e20c8625-800'></a>![Laberint]({{urls.media}}/593ef1f3a4717adddf2e4cc6e20c8625-800.jpg 'Кабанам запрещается сблевывать яблочные огрызки')
 
 <a id='d87cef5ffeec6fca16891d18fd0b3c19-800'></a>![Laberint]({{urls.media}}/d87cef5ffeec6fca16891d18fd0b3c19-800.jpg 'Лабиринт, собственно; развлечение европейской знати')
 
@@ -29,6 +29,6 @@ categories: Photos
 
 <a id='6cc8cd9755a7c3bf307cad56de4093b7-800'></a>![Laberint]({{urls.media}}/6cc8cd9755a7c3bf307cad56de4093b7-800.jpg 'Да, это гуси')
 
-<a id='ab612017426e40475b9d9e6313ae4cf0-800'></a>![Laberint]({{urls.media}}/ab612017426e40475b9d9e6313ae4cf0-800.jpg 'Черепахи отыхают')
+<a id='ab612017426e40475b9d9e6313ae4cf0-800'></a>![Laberint]({{urls.media}}/ab612017426e40475b9d9e6313ae4cf0-800.jpg 'Черепахи отдыхают')
 
 <a id='061f520be214c53e0cc73bbd1f2495a7-800'></a>![Laberint]({{urls.media}}/061f520be214c53e0cc73bbd1f2495a7-800.jpg 'Памятник современному искусству')
