@@ -62,7 +62,7 @@ tags: [Reisen, España]
 
 <a id='fb1c8d57b983d0f881b1374f8c55326f-800'></a>![Osona]({{urls.media}}/fb1c8d57b983d0f881b1374f8c55326f-800.jpg 'Йусанес требует независимости.')
 
-<a id='0c5a95524cab695a0e364698d210fced-800'></a>![Osona]({{urls.media}}/0c5a95524cab695a0e364698d210fced-800.jpg 'Церковь и дорога'.)
+<a id='0c5a95524cab695a0e364698d210fced-800'></a>![Osona]({{urls.media}}/0c5a95524cab695a0e364698d210fced-800.jpg 'Церковь и дорога.')
 
 <a id='628699b04403a67152f74581362bb220-800'></a>![Osona]({{urls.media}}/628699b04403a67152f74581362bb220-800.jpg 'Церкви тут примерно одинаковые.')
 
