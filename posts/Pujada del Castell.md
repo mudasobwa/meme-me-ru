@@ -11,9 +11,9 @@ tags: [Reisen, España]
 
 <a id='9044259794bda7fab3e748fa0c6b8433-800'></a>![Pujada del Castell]({{urls.media}}/9044259794bda7fab3e748fa0c6b8433-800.jpg 'Крепость окружена рвом.')
 
-<a id='52cfcc7e00f76ded6328470f8248cdf6-800'></a>![Pujada del Castell]({{urls.media}}/52cfcc7e00f76ded6328470f8248cdf6-800.jpg 'Над входом в крепость мне лично не хватило чугунного двуглавого орла весов 1084 килограмма.')
+<a id='52cfcc7e00f76ded6328470f8248cdf6-800'></a>![Pujada del Castell]({{urls.media}}/52cfcc7e00f76ded6328470f8248cdf6-800.jpg 'Ров и милые сердцу бастиончики.')
 
-<a id='c21261a0cb0568a67487dc7373207125-800'></a>![Pujada del Castell]({{urls.media}}/c21261a0cb0568a67487dc7373207125-800.jpg 'Ров и милые сердцу бастиончики.')
+<a id='c21261a0cb0568a67487dc7373207125-800'></a>![Pujada del Castell]({{urls.media}}/c21261a0cb0568a67487dc7373207125-800.jpg 'Над входом в крепость мне лично не хватило чугунного двуглавого орла весов 1084 килограмма.')
 
 <a id='9e5020c148e8cce8b703c97f944927bb-800'></a>![Pujada del Castell]({{urls.media}}/9e5020c148e8cce8b703c97f944927bb-800.jpg 'Какая крепость без пушек?')
 
