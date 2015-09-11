@@ -13,7 +13,7 @@ tags: [Reisen, España]
 
 <a id='52cfcc7e00f76ded6328470f8248cdf6-800'></a>![Pujada del Castell]({{urls.media}}/52cfcc7e00f76ded6328470f8248cdf6-800.jpg 'Ров и милые сердцу бастиончики.')
 
-<a id='c21261a0cb0568a67487dc7373207125-800'></a>![Pujada del Castell]({{urls.media}}/c21261a0cb0568a67487dc7373207125-800.jpg 'Над входом в крепость мне лично не хватило чугунного двуглавого орла весов 1084 килограмма.')
+<a id='c21261a0cb0568a67487dc7373207125-800'></a>![Pujada del Castell]({{urls.media}}/c21261a0cb0568a67487dc7373207125-800.jpg 'Над входом в крепость мне лично не хватило чугунного двуглавого орла весом 1084 килограмма.')
 
 <a id='9e5020c148e8cce8b703c97f944927bb-800'></a>![Pujada del Castell]({{urls.media}}/9e5020c148e8cce8b703c97f944927bb-800.jpg 'Какая крепость без пушек?')
 
@@ -21,7 +21,7 @@ tags: [Reisen, España]
 
 <a id='8e87651ce876e1695633081089d26112-800'></a>![Pujada del Castell]({{urls.media}}/8e87651ce876e1695633081089d26112-800.jpg 'И еще.')
 
-<a id='96b1778067d000fcfae07ab0371e0f78-800'></a>![Pujada del Castell]({{urls.media}}/96b1778067d000fcfae07ab0371e0f78-800.jpg 'От Синода — к Сенату... Опять не то. Плац, в общем.')
+<a id='96b1778067d000fcfae07ab0371e0f78-800'></a>![Pujada del Castell]({{urls.media}}/96b1778067d000fcfae07ab0371e0f78-800.jpg 'От Синода — к Сенату... Нет, не то. Плац, в общем.')
 
 <a id='90c21f0ad4b7fcb404709fba3a9a1862-800'></a>![Pujada del Castell]({{urls.media}}/90c21f0ad4b7fcb404709fba3a9a1862-800.jpg 'Плац, левая сторона.')
 
@@ -29,7 +29,7 @@ tags: [Reisen, España]
 
 <a id='611a332ff1cde542c77c0d8211ca3821-800'></a>![Pujada del Castell]({{urls.media}}/611a332ff1cde542c77c0d8211ca3821-800.jpg 'Красивый мост, у которого навалены какие-то камни.')
 
-<a id='5bdba852a5c72ab271ec9d99ee00e464-800'></a>![Pujada del Castell]({{urls.media}}/5bdba852a5c72ab271ec9d99ee00e464-800.jpg 'К ограды, защищающей туристов от сваливания вниз, кто-то подошел творчески. Или ему просто кто-то сказал: «Хуан, почему у тебя тут подкова валяется?».')
+<a id='5bdba852a5c72ab271ec9d99ee00e464-800'></a>![Pujada del Castell]({{urls.media}}/5bdba852a5c72ab271ec9d99ee00e464-800.jpg 'К созданию ограды, защищающей туристов от сваливания вниз, мастер подошел творчески. Или ему просто сказали: «Хуан, почему у тебя тут подкова валяется?».')
 
 <a id='54bc2c297e975205e2f063cb1a093eec-800'></a>![Pujada del Castell]({{urls.media}}/54bc2c297e975205e2f063cb1a093eec-800.jpg 'Часы.')
 
