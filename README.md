@@ -6,6 +6,12 @@ A default blog scaffold for **ruhoh** compatible static blog parsers.
 
 ### ruby 1.9.2+
 
+#### TL;DR
+
+bundle exec ruhoh posts image ~/Imágenes/2015/09/CaldesDeMontbuiOK 'Caldes de Montbui'
+bundle exec ruhoh serve
+bundle exec ruhoh publish rsync
+
 #### Clone the Blog Scaffold
 
     $ git clone git://github.com/ruhoh/blog.git blog
