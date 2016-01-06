@@ -227,7 +227,7 @@ module Ruhoh::Resources::Pages
           curr.rotate!(-90)
         end
         # curr.orienation = Magick::LeftTopOrientation
-        curr.write(currfile) { self.quality = 90 }
+        curr.write(currfile) { self.quality = 76 }
       }
       result
     end
