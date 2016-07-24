@@ -14,7 +14,7 @@ categories: Photos
 _Les Santes_ — [праздник](https://en.wikipedia.org/wiki/Les_Santes),
 на котором основным действом являются [Ball de diables](https://en.wikipedia.org/wiki/Ball_de_diables),
 которые суть частный случай [correfocs](https://en.wikipedia.org/wiki/Correfoc);
-ярчайшим представителем последнего можно назвать _Les Santes e Mataró_.
+ярчайшим представителем последнего можно назвать _Les Santes de Mataró_.
 
 <a id='411cea2ce4cfd5ef212232a2d5fcdd19-800'></a>![Mataró :: Les Santes]({{urls.media}}/411cea2ce4cfd5ef212232a2d5fcdd19-800.jpg 'Перед началом основного торжества — шествие гигантов, которые на каталанском внезапно величаются «gegants».')
 
@@ -46,7 +46,7 @@ _Les Santes_ — [праздник](https://en.wikipedia.org/wiki/Les_Santes),
 
 <a id='6fea6104d39fc6b13d900dca1b1f78ec-800'></a>![Mataró :: Les Santes]({{urls.media}}/6fea6104d39fc6b13d900dca1b1f78ec-800.jpg 'Памятник трамваю. Нынче такого общественного транспорта в Матаро нет, но полтора века назад действовало трамвайное сообщение с одним из городов неподалеку — Аргентоной.')
 
-[Трамвай-побратим в Аргентоне](http://meme-me.ru/photos/argentona/#bddd4ffab1dc86f870095d7d425f1bae-800).
+[Встречный трамвай в Аргентоне](http://meme-me.ru/photos/argentona/#bddd4ffab1dc86f870095d7d425f1bae-800).
 
 <a id='c086213394ab5b3ee246eb935b6faf52-800'></a>![Mataró :: Les Santes]({{urls.media}}/c086213394ab5b3ee246eb935b6faf52-800.jpg 'Нет мест, неподвластных граффити.')
 
