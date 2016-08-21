@@ -7,6 +7,16 @@ categories: Photos
 
 <div class='preview'><img src='{{urls.media}}/UniversidadLaboralOK.jpg' alt='Universidad Laboral de Gijón'></div>
 
+Built between 1946 and 1956, it is the most important architectural work built in the 20th century in Asturias and is considered, with its 270,000 m2, the biggest building in Spain.
+
+On 19 May 2016 the Universidad Laboral was declared Bien de Interés Cultural.
+
+---
+
+Фотографии подписыавть довольно бессмысленно; мощь все равно передать удалось навряд ли. Здание МГУ, после _вот этого вот_ вспоминается средних размеров домиком. Любуйтесь.
+
+---
+
 <a id='08e98b80ada08e54fb22755379e4c50d-800'></a>![Universidad Laboral de Gijón]({{urls.media}}/08e98b80ada08e54fb22755379e4c50d-800.jpg '')
 
 <a id='bd01b6ca6c7fe60525fe40103ac574b0-800'></a>![Universidad Laboral de Gijón]({{urls.media}}/bd01b6ca6c7fe60525fe40103ac574b0-800.jpg '')
