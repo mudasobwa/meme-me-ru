@@ -7,7 +7,7 @@ categories: Photos
 
 <div class='preview'><img src='{{urls.media}}/GironaFall.jpg' alt='The Fall in Girona'></div>
 
-<a id='ffd37c772dbc87d3b1f0ae366c1f47a2-800'></a>![The Fall in Girona]({{urls.media}}/ffd37c772dbc87d3b1f0ae366c1f47a2-800.jpg 'Круассан-гигант.')
+<a id='ffd37c772dbc87d3b1f0ae366c1f47a2-800'></a>![The Fall in Girona]({{urls.media}}/ffd37c772dbc87d3b1f0ae366c1f47a2-800.jpg 'Семья Круассанов.')
 
 <a id='0da4d6e04d9d36fb3199d2bebd198dfd-800'></a>![The Fall in Girona]({{urls.media}}/0da4d6e04d9d36fb3199d2bebd198dfd-800.jpg 'Угол дома.')
 
