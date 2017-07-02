@@ -97,7 +97,7 @@ module Ruhoh::Resources::Pages
     def scale_images imgs
       begin
         img_names = []
-        imgs.each { |f| 
+        imgs.each { |f|
           Ruhoh::Friend.say { blue "Scaling #{f}..." }
           begin
             img = Magick::Image::read(f).first
