@@ -7,6 +7,12 @@ tags: [Reisen, España]
 
 <div class='preview'><img src='{{urls.media}}/1000.jpg' alt='Tortosa'></div>
 
+<img alt="Флаг Тортосы" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Bandera_de_Tortosa.svg/100px-Bandera_de_Tortosa.svg.png">       <img alt="Coat of arms of Tortosa" src="https:////upload.wikimedia.org/wikipedia/commons/thumb/2/27/Escudo_de_Tortosa.svg/100px-Escudo_de_Tortosa.svg.png">
+
+**Тортоса** _(исп. Tortosa)_ — город и муниципалитет в Испании, входит в провинцию Таррагона в составе автономного сообщества Каталония. Первое упоминание как о городе относится к II в. до нашей эры, это были времена когда римские завоеватели объявили Иберийский полуостров своей провинцией.
+
+---
+
 <a id='7d15aff41e7f4320fafa37eb181e0b08-800'></a>![Tortosa]({{urls.media}}/7d15aff41e7f4320fafa37eb181e0b08-800.jpg 'Башенки с тыльной стороны кафедрального собора.')
 
 <a id='5bbac8b04f40976f644b280289f4afb7-800'></a>![Tortosa]({{urls.media}}/5bbac8b04f40976f644b280289f4afb7-800.jpg '«Средь вод расхристанной Эбро тот монумент воздвигнут будет.» Мост, с подножия которого сделана фотография, полагаю, называется Крымским.')
