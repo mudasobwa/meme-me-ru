@@ -5,7 +5,7 @@ categories: Photos
 tags: [Reisen, España]
 ---
 
-<div class='preview'><img src='{{urls.media}}/1000.jpg' alt='Tortosa'></div>
+<div class='preview'><img src='{{urls.media}}/tortosa-collage.jpg' alt='Tortosa'></div>
 
 <img alt="Флаг Тортосы" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Bandera_de_Tortosa.svg/100px-Bandera_de_Tortosa.svg.png">       <img alt="Coat of arms of Tortosa" src="https:////upload.wikimedia.org/wikipedia/commons/thumb/2/27/Escudo_de_Tortosa.svg/100px-Escudo_de_Tortosa.svg.png">
 
